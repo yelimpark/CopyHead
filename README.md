@@ -1,2 +1,2 @@
 # CopyHead
-copy cuphead
+copy of cuphead
