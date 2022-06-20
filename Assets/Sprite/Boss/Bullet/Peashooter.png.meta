@@ -1,0 +1,613 @@
+fileFormatVersion: 2
+guid: 1c6cd2b8c41950141a031e8cfec416da
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Peashooter_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1976
+        width: 60
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1c134867099fd845b342d634e6a9558
+      internalID: -910727818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Peashooter_1
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 1967
+        width: 65
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34169bc3074ebfb4bbe1c7aab12eba8a
+      internalID: 278835531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Peashooter_2
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 1958
+        width: 91
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5495bbe2b846e7c42952d1cdaa2c77f3
+      internalID: -157249286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Peashooter_3
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 1948
+        width: 101
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb01ea1e7abaeae47b1272db536af45d
+      internalID: -2131418611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Peashooter_4
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1907
+        width: 52
+        height: 35
+      alignment: 9
+      pivot: {x: 0.77104306, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97fe8bf92281a49458ffe6f102134396
+      internalID: 2076789094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Peashooter_5
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 1904
+        width: 73
+        height: 38
+      alignment: 9
+      pivot: {x: 0.86294127, y: 0.46847695}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7a50229c7f38584ba9267f7614cb344
+      internalID: 453662932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Peashooter_6
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 1903
+        width: 155
+        height: 39
+      alignment: 9
+      pivot: {x: 0.92557687, y: 0.46699408}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d97ae713db0fbf34e95d47e68f4d6447
+      internalID: 777539738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Peashooter_7
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 1900
+        width: 146
+        height: 42
+      alignment: 9
+      pivot: {x: 0.9163678, y: 0.41959345}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4154a388fd64928478d0580fd86f72b5
+      internalID: 1124120501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Peashooter_8
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 1903
+        width: 142
+        height: 39
+      alignment: 9
+      pivot: {x: 0.8948003, y: 0.46536645}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cbf3c926a1968c49b89db1b68fc6935
+      internalID: 854217442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Peashooter_35
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 1896
+        width: 157
+        height: 46
+      alignment: 9
+      pivot: {x: 0.9044046, y: 0.47797957}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f79752f02eb3a0408c1ad975a3a5a7f
+      internalID: 291205340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Peashooter_36
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1899
+        width: 134
+        height: 43
+      alignment: 9
+      pivot: {x: 0.873005, y: 0.53142035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33ccc4aab033c124eb101f011dbef740
+      internalID: 873092219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Peashooter_37
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 1907
+        width: 120
+        height: 35
+      alignment: 9
+      pivot: {x: 0.8911936, y: 0.48070592}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c920a3f8885629745980ff0e7939badd
+      internalID: 674414234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Peashooter_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1822
+        width: 80
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0ea602f118d489458238b81c0c5355a
+      internalID: -435096209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Peashooter_10
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 1803
+        width: 93
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a50affd4ce87e444bd9cbd3b8691265
+      internalID: 1011005483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Peashooter_11
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 1727
+        width: 165
+        height: 163
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c779b64b41c6c6f47989ac2bdb154cf8
+      internalID: -1213439970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Peashooter_12
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 1650
+        width: 232
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d458edcae8f9474a9f91db77e039acf
+      internalID: 1941202317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Peashooter_13
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 1620
+        width: 256
+        height: 270
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d612b9d6700acf94aaea0074741d0000
+      internalID: 31970659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Peashooter_14
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 1612
+        width: 259
+        height: 278
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16f2124d59335114a9b77a7e75108322
+      internalID: 1343214896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Peashooter_15
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1372
+        width: 465
+        height: 193
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1720cf0f7f3d649459fd8855d2280604
+      internalID: 1690915836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Peashooter_16
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 1381
+        width: 394
+        height: 184
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad6026706bf042940bdead3062ce7bb4
+      internalID: -1026521049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Peashooter_17
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 1386
+        width: 422
+        height: 179
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2827230e05dcb794db7e350589ce0764
+      internalID: 885148098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Peashooter_22: -1129517137
+      Peashooter_4: 2076789094
+      Peashooter_14: 1343214896
+      Peashooter_11: -1213439970
+      Peashooter_27: 963216827
+      Peashooter_34: 748363180
+      Peashooter_10: 1011005483
+      Peashooter_16: -1026521049
+      Peashooter_0: -910727818
+      Peashooter_25: 1144414830
+      Peashooter_20: 110981869
+      Peashooter_29: -2038854288
+      Peashooter_5: 453662932
+      Peashooter_21: 1453955508
+      Peashooter_9: -435096209
+      Peashooter_26: -967074087
+      Peashooter_31: 2024361637
+      Peashooter_32: -1012536003
+      Peashooter_7: 1124120501
+      Peashooter_33: 1010392627
+      Peashooter_6: 777539738
+      Peashooter_28: -777619556
+      Peashooter_24: 1412089708
+      Peashooter_1: 278835531
+      Peashooter_19: 220371332
+      Peashooter_15: 1690915836
+      Peashooter_17: 885148098
+      Peashooter_8: 854217442
+      Peashooter_18: 1669574435
+      Peashooter_3: -2131418611
+      Peashooter_23: -56701209
+      Peashooter_2: -157249286
+      Peashooter_35: -1243991263
+      Peashooter_36: 291205340
+      Peashooter_12: 1941202317
+      Peashooter_37: 873092219
+      Peashooter_13: 31970659
+      Peashooter_30: -1709611339
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

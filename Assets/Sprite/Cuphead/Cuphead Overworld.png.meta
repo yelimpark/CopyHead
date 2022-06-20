@@ -1,0 +1,2356 @@
+fileFormatVersion: 2
+guid: 5e40ff61754a6ec44b6facf757e4a118
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Cuphead Overworld_0
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 809
+        width: 52
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3777aa421a5cadd4c87d1b34fca0cd4b
+      internalID: 914905989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cuphead Overworld_1
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 809
+        width: 52
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8bf55874b7a3fb41ac7c112311f3f7f
+      internalID: -1868562068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cuphead Overworld_2
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 809
+        width: 53
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e542f063b105c054b8ff7043efc48100
+      internalID: 1562847604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cuphead Overworld_3
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 809
+        width: 52
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49674da5ea73f1e419b83ae86bf1c06f
+      internalID: 667898913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cuphead Overworld_4
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 807
+        width: 66
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 532495ac70f1f894a94838dfaf893ef1
+      internalID: 405755182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cuphead Overworld_5
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 804
+        width: 61
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9bfe6134550c324bba046131814d187
+      internalID: -959331509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cuphead Overworld_6
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 802
+        width: 60
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7190a68a14c0a1a4e9bb47d23e49e62c
+      internalID: 866616751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cuphead Overworld_7
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 800
+        width: 53
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5095caa3a2fcdf242a158a5bf97534ec
+      internalID: 433815670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cuphead Overworld_8
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 799
+        width: 52
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35b7864581d6b9b4094e20c54cfaef96
+      internalID: 252747283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cuphead Overworld_9
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 804
+        width: 63
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3fe60450bf89dc498a7a2878d649005
+      internalID: 1120131726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cuphead Overworld_10
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 806
+        width: 64
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe27f22b4394cb648b81d6ea13256960
+      internalID: 683710662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cuphead Overworld_11
+      rect:
+        serializedVersion: 2
+        x: 1153
+        y: 804
+        width: 64
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13e2284fc254b904fb3a231336bb98a6
+      internalID: -358350503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cuphead Overworld_12
+      rect:
+        serializedVersion: 2
+        x: 1258
+        y: 803
+        width: 61
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 040d848d2e5972b4cb9735569974feb9
+      internalID: 804558935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cuphead Overworld_13
+      rect:
+        serializedVersion: 2
+        x: 1363
+        y: 800
+        width: 56
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8458bd1a525fc924283b817ad242b373
+      internalID: -903172478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cuphead Overworld_14
+      rect:
+        serializedVersion: 2
+        x: 1466
+        y: 801
+        width: 57
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd327fa02f9345a4c8c3c318884c4976
+      internalID: 1838110447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cuphead Overworld_15
+      rect:
+        serializedVersion: 2
+        x: 1566
+        y: 802
+        width: 62
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da1d962cf479a2c4c9ac069d15769328
+      internalID: -1742568965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cuphead Overworld_16
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 694
+        width: 54
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 137681c6567526d468625f3a78bf98fc
+      internalID: -196686431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cuphead Overworld_17
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 693
+        width: 56
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4041a1fa79dd6f46862f56e9538b319
+      internalID: 1932461540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cuphead Overworld_18
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 694
+        width: 57
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fbf5d658468b3640a1de03faa77781e
+      internalID: 460695622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cuphead Overworld_19
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 692
+        width: 52
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 468e362b921f756479b257245e50ddda
+      internalID: 540940627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cuphead Overworld_20
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 694
+        width: 53
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2134865326819834b95a7c59bfef06b9
+      internalID: 178078124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cuphead Overworld_21
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 689
+        width: 57
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 019501fb17c168a4c84f3ca2b605e5dd
+      internalID: 946318662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cuphead Overworld_22
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 689
+        width: 60
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56b992e854e1d7246993ded072a5ee5f
+      internalID: -695117763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cuphead Overworld_23
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 689
+        width: 64
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56ddc329884b67142a52c818a08d4ccf
+      internalID: -1077112255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cuphead Overworld_24
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 691
+        width: 58
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ef1c0e8ca3c0f44785c653e4329659b
+      internalID: 282556099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cuphead Overworld_25
+      rect:
+        serializedVersion: 2
+        x: 953
+        y: 693
+        width: 52
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acd2cbc6be8413841aa2ac67a65763cd
+      internalID: -1393761202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cuphead Overworld_26
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 690
+        width: 52
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fece4345374d654d9767eb47502ff08
+      internalID: 1614577299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cuphead Overworld_27
+      rect:
+        serializedVersion: 2
+        x: 1158
+        y: 690
+        width: 54
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20db3fe24831d7c46820634413116fe2
+      internalID: 1646766513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cuphead Overworld_28
+      rect:
+        serializedVersion: 2
+        x: 1259
+        y: 688
+        width: 59
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43199c45fa1a4514388d999dcc531103
+      internalID: 1703935952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cuphead Overworld_29
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 688
+        width: 64
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89e485b26f0ef3943a135ae12f56496b
+      internalID: -526499293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cuphead Overworld_30
+      rect:
+        serializedVersion: 2
+        x: 1463
+        y: 688
+        width: 62
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d99891116916e704992440ff87fa7b9e
+      internalID: 1283659146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cuphead Overworld_31
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 576
+        width: 62
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55b296740dfed684ebaedc5ae2b21459
+      internalID: 2042590265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cuphead Overworld_32
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 578
+        width: 61
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acb1fce0efb81134a9c2db5d4dc098db
+      internalID: 1295903946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cuphead Overworld_33
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 578
+        width: 60
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7072e85fb6d24746868a4fce639496c
+      internalID: -746605572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cuphead Overworld_34
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 578
+        width: 61
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15bf7b82ee6f42648b275b507a5ffb8e
+      internalID: 1815819524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cuphead Overworld_35
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 578
+        width: 60
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b95fde6775672f941bb61c01165b76f8
+      internalID: -1521202716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cuphead Overworld_36
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 578
+        width: 60
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8593de629be6e245a8025f029dc46df
+      internalID: 1033946240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cuphead Overworld_37
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 464
+        width: 61
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60f3a1e0f7c5a7e4893fde334a7db95b
+      internalID: 1333379845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cuphead Overworld_38
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 465
+        width: 62
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e83b14506314a89468d5b06824d78d3d
+      internalID: 1396393868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cuphead Overworld_39
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 465
+        width: 62
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4157fe904e6a95458db21cca9e5f881
+      internalID: 721264788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cuphead Overworld_40
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 466
+        width: 61
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c8f58299cbe33446aa67feea6a35d3b
+      internalID: -2145911936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cuphead Overworld_41
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 466
+        width: 61
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0953e0d6c91fd748be2a3dcb88e1b3b
+      internalID: 1931813079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cuphead Overworld_42
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 466
+        width: 60
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2164636266cfb447a95e5ca7e16c4ae
+      internalID: -973867963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cuphead Overworld_43
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 468
+        width: 64
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00555f90c1009d642bfc4f94138dfc9e
+      internalID: -256349321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cuphead Overworld_44
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 469
+        width: 61
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bd6df35cf7662e4e8818521636b5bcf
+      internalID: -967488036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cuphead Overworld_45
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 466
+        width: 59
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d970bc14ec93f6e4bb653a90494e3bdf
+      internalID: -1934903004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cuphead Overworld_46
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 464
+        width: 61
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f04a70be8814e2440b06b01964848e17
+      internalID: 1627625653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cuphead Overworld_47
+      rect:
+        serializedVersion: 2
+        x: 1052
+        y: 464
+        width: 60
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcdbbe3c9447fdc4d822ee50a2b04bc9
+      internalID: 1632281805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cuphead Overworld_48
+      rect:
+        serializedVersion: 2
+        x: 1153
+        y: 465
+        width: 64
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9241b893da2384d46afe28d84616f98d
+      internalID: -452235774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cuphead Overworld_49
+      rect:
+        serializedVersion: 2
+        x: 1257
+        y: 465
+        width: 63
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f794d761eee2fe4bb4c7d9e032de16d
+      internalID: 367463391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cuphead Overworld_50
+      rect:
+        serializedVersion: 2
+        x: 1362
+        y: 466
+        width: 59
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33f063de7f004e44d868ef19ffa40341
+      internalID: 736042102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cuphead Overworld_51
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 346
+        width: 57
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f052256725af20244bf41f154f7ce655
+      internalID: 1078947745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cuphead Overworld_52
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 346
+        width: 56
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 985ab04a89c548c47aa11a285ec9b2ce
+      internalID: 1308299699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cuphead Overworld_53
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 346
+        width: 60
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 821e41592eac7614ebf6b6d7f4bc796b
+      internalID: 2036706787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cuphead Overworld_54
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 346
+        width: 60
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9936984c9bf11f4418075f47a3b9342c
+      internalID: 392405843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cuphead Overworld_55
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 348
+        width: 58
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcccc1bede757a041980829c8f8aac4d
+      internalID: 1346576215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cuphead Overworld_56
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 347
+        width: 59
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d3b1116d1f41634c884eac0d991a433
+      internalID: -466498456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cuphead Overworld_57
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 345
+        width: 57
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dbe87247152f5c488c164974a0cedf7
+      internalID: -333595158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cuphead Overworld_58
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 345
+        width: 56
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd8df6e2664fbf64886dac8aae5f7d22
+      internalID: 267282083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cuphead Overworld_59
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 345
+        width: 53
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e118a8e63ed1c89489a3f9c4d924ebee
+      internalID: 2110851832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cuphead Overworld_60
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 347
+        width: 62
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2a2609aced9d84419c4102bf160f84f
+      internalID: 1312067096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cuphead Overworld_61
+      rect:
+        serializedVersion: 2
+        x: 1051
+        y: 349
+        width: 62
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2739fb5eee6313a4fb30f618e26bcbc1
+      internalID: 1996023489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cuphead Overworld_62
+      rect:
+        serializedVersion: 2
+        x: 1156
+        y: 348
+        width: 58
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67037325f6a40f24a9e9e2bd8160dd18
+      internalID: -65516029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cuphead Overworld_63
+      rect:
+        serializedVersion: 2
+        x: 1259
+        y: 347
+        width: 58
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee149bef8eba8e641abb5ce69f114f2a
+      internalID: 73501410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cuphead Overworld_64
+      rect:
+        serializedVersion: 2
+        x: 1362
+        y: 349
+        width: 59
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 570deb98406a9d347a2330f72a269dc0
+      internalID: -1177689220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cuphead Overworld_65
+      rect:
+        serializedVersion: 2
+        x: 1466
+        y: 348
+        width: 56
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8863fcecad07f1744bdecb3a1fdc46e9
+      internalID: -588091945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cuphead Overworld_66
+      rect:
+        serializedVersion: 2
+        x: 1569
+        y: 349
+        width: 56
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14709f1848672e742b946cbc1dffa822
+      internalID: 463899530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cuphead Overworld_67
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 235
+        width: 49
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 154c33e36848331438449e85ae2936c2
+      internalID: 1633994310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cuphead Overworld_68
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 235
+        width: 52
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c2babd3b6aef824cbb5613ac6bb74b6
+      internalID: 438491084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cuphead Overworld_69
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 233
+        width: 57
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a75a22342ce9ec34e8cd1079e21182ab
+      internalID: -2051948664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cuphead Overworld_70
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 235
+        width: 52
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faa30ffd4d8e7b84b958f0fa4aa966b4
+      internalID: 944240564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cuphead Overworld_71
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 236
+        width: 49
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09aee5f27cdd07c4dae3f967ac44393b
+      internalID: -1924967676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cuphead Overworld_72
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 235
+        width: 51
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b90e2554bd893154dad2b83ffc075f4a
+      internalID: -2074486006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cuphead Overworld_73
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 235
+        width: 49
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d0037dc858f4444da8bd4d9f6043555
+      internalID: 49876331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cuphead Overworld_74
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 235
+        width: 50
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65a2aeb03393f454ba922b0725f05de4
+      internalID: -1864186264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cuphead Overworld_75
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 235
+        width: 51
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5333ee79a9afe9346ab3a07545e88ac5
+      internalID: -1592074975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cuphead Overworld_76
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 124
+        width: 56
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f0b55221178b4c4a927685980c98d1a
+      internalID: -184506996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cuphead Overworld_77
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 120
+        width: 57
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a1a36fd759063f40a88107bb2a3fbb9
+      internalID: 829382983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cuphead Overworld_78
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 119
+        width: 53
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cf1302c82427c940aeca7115f45826d
+      internalID: -641586242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cuphead Overworld_79
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 121
+        width: 58
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90e779965148b7f488918e8b1a589b23
+      internalID: -288170135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cuphead Overworld_80
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 125
+        width: 60
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54af8c34b4d10ae4ba6f95b4c149738a
+      internalID: -1350974775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cuphead Overworld_81
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 123
+        width: 60
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 360eeb7f281e8834ba3337b2d74e8c4c
+      internalID: 144745503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cuphead Overworld_82
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 121
+        width: 56
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e4eb51a8c0cd04418ae8dc319026664
+      internalID: 2119380565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cuphead Overworld_83
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 119
+        width: 55
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b059ed20477c12642a3f3581b3269b40
+      internalID: -1279718718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cuphead Overworld_84
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 118
+        width: 56
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b204f4b1ddaa534cb9fdb36b8df1d20
+      internalID: 1013219554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cuphead Overworld_85
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 117
+        width: 56
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f464cbc39111b549b92218e2ca26f70
+      internalID: -554805351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cuphead Overworld_86
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 120
+        width: 53
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 630f1570e03a9634a82da9eaf389389a
+      internalID: -911528179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cuphead Overworld_87
+      rect:
+        serializedVersion: 2
+        x: 1158
+        y: 123
+        width: 54
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2afedb0e5c295b74a874d98d5a1d4288
+      internalID: -1290882176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cuphead Overworld_88
+      rect:
+        serializedVersion: 2
+        x: 1258
+        y: 123
+        width: 60
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e669e876f9f5f04d8d2fc96d715ff85
+      internalID: 935451497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cuphead Overworld_89
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 6
+        width: 67
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3c87fb22a3b42640b417fd87ddba566
+      internalID: 444952098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cuphead Overworld_90
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 10
+        width: 72
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd1aa6ac3783cb74e9d331bbb1313514
+      internalID: -551321923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cuphead Overworld_91
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 8
+        width: 76
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74d879dede712f04494eca9f73658d6f
+      internalID: -2055472683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cuphead Overworld_92
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 7
+        width: 70
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 364bf50f168774e4496ab2de7684c2d9
+      internalID: -1093400427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cuphead Overworld_93
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 7
+        width: 80
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfb68f8e306ef2944948cd7ebfd2b552
+      internalID: -1398645808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cuphead Overworld_94
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 4
+        width: 85
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64156284712b3e740bbde0e33ea20f0e
+      internalID: -399119342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cuphead Overworld_95
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 13
+        width: 102
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7114fa5bada13f498d90a37f0e1587e
+      internalID: 463439014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cuphead Overworld_96
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 12
+        width: 100
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdc65cb5101eac245941f7f9f7a494da
+      internalID: 1263202508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cuphead Overworld_97
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 8
+        width: 100
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f95ee6ee08f8694886e0ebfa4192e5e
+      internalID: 348697471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cuphead Overworld_98
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 1
+        width: 98
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f707957e344e66408b3a6b5e40696d2
+      internalID: -1415629736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cuphead Overworld_99
+      rect:
+        serializedVersion: 2
+        x: 1067
+        y: 48
+        width: 31
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 525883d20be17044b8b6b9416e14c0b2
+      internalID: -1124745608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cuphead Overworld_100
+      rect:
+        serializedVersion: 2
+        x: 1171
+        y: 50
+        width: 28
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e83e770eaa0fa824e8e6234b5e721506
+      internalID: -876625377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Cuphead Overworld_56: -466498456
+      Cuphead Overworld_84: 1013219554
+      Cuphead Overworld_44: -967488036
+      Cuphead Overworld_36: 1033946240
+      Cuphead Overworld_53: 2036706787
+      Cuphead Overworld_34: 1815819524
+      Cuphead Overworld_14: 1838110447
+      Cuphead Overworld_46: 1627625653
+      Cuphead Overworld_21: 946318662
+      Cuphead Overworld_68: 438491084
+      Cuphead Overworld_60: 1312067096
+      Cuphead Overworld_38: 1396393868
+      Cuphead Overworld_40: -2145911936
+      Cuphead Overworld_50: 736042102
+      Cuphead Overworld_75: -1592074975
+      Cuphead Overworld_97: 348697471
+      Cuphead Overworld_86: -911528179
+      Cuphead Overworld_95: 463439014
+      Cuphead Overworld_71: -1924967676
+      Cuphead Overworld_74: -1864186264
+      Cuphead Overworld_17: 1932461540
+      Cuphead Overworld_100: -876625377
+      Cuphead Overworld_90: -551321923
+      Cuphead Overworld_3: 667898913
+      Cuphead Overworld_12: 804558935
+      Cuphead Overworld_29: -526499293
+      Cuphead Overworld_91: -2055472683
+      Cuphead Overworld_43: -256349321
+      Cuphead Overworld_6: 866616751
+      Cuphead Overworld_85: -554805351
+      Cuphead Overworld_10: 683710662
+      Cuphead Overworld_0: 914905989
+      Cuphead Overworld_76: -184506996
+      Cuphead Overworld_18: 460695622
+      Cuphead Overworld_24: 282556099
+      Cuphead Overworld_99: -1124745608
+      Cuphead Overworld_8: 252747283
+      Cuphead Overworld_37: 1333379845
+      Cuphead Overworld_49: 367463391
+      Cuphead Overworld_94: -399119342
+      Cuphead Overworld_62: -65516029
+      Cuphead Overworld_67: 1633994310
+      Cuphead Overworld_65: -588091945
+      Cuphead Overworld_80: -1350974775
+      Cuphead Overworld_57: -333595158
+      Cuphead Overworld_58: 267282083
+      Cuphead Overworld_33: -746605572
+      Cuphead Overworld_42: -973867963
+      Cuphead Overworld_32: 1295903946
+      Cuphead Overworld_89: 444952098
+      Cuphead Overworld_30: 1283659146
+      Cuphead Overworld_82: 2119380565
+      Cuphead Overworld_79: -288170135
+      Cuphead Overworld_9: 1120131726
+      Cuphead Overworld_98: -1415629736
+      Cuphead Overworld_11: -358350503
+      Cuphead Overworld_54: 392405843
+      Cuphead Overworld_93: -1398645808
+      Cuphead Overworld_26: 1614577299
+      Cuphead Overworld_1: -1868562068
+      Cuphead Overworld_45: -1934903004
+      Cuphead Overworld_2: 1562847604
+      Cuphead Overworld_66: 463899530
+      Cuphead Overworld_96: 1263202508
+      Cuphead Overworld_4: 405755182
+      Cuphead Overworld_19: 540940627
+      Cuphead Overworld_35: -1521202716
+      Cuphead Overworld_41: 1931813079
+      Cuphead Overworld_47: 1632281805
+      Cuphead Overworld_83: -1279718718
+      Cuphead Overworld_77: 829382983
+      Cuphead Overworld_87: -1290882176
+      Cuphead Overworld_51: 1078947745
+      Cuphead Overworld_28: 1703935952
+      Cuphead Overworld_73: 49876331
+      Cuphead Overworld_59: 2110851832
+      Cuphead Overworld_63: 73501410
+      Cuphead Overworld_78: -641586242
+      Cuphead Overworld_5: -959331509
+      Cuphead Overworld_64: -1177689220
+      Cuphead Overworld_23: -1077112255
+      Cuphead Overworld_52: 1308299699
+      Cuphead Overworld_61: 1996023489
+      Cuphead Overworld_88: 935451497
+      Cuphead Overworld_69: -2051948664
+      Cuphead Overworld_55: 1346576215
+      Cuphead Overworld_92: -1093400427
+      Cuphead Overworld_22: -695117763
+      Cuphead Overworld_15: -1742568965
+      Cuphead Overworld_25: -1393761202
+      Cuphead Overworld_48: -452235774
+      Cuphead Overworld_31: 2042590265
+      Cuphead Overworld_7: 433815670
+      Cuphead Overworld_16: -196686431
+      Cuphead Overworld_27: 1646766513
+      Cuphead Overworld_81: 144745503
+      Cuphead Overworld_70: 944240564
+      Cuphead Overworld_13: -903172478
+      Cuphead Overworld_39: 721264788
+      Cuphead Overworld_72: -2074486006
+      Cuphead Overworld_20: 178078124
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
