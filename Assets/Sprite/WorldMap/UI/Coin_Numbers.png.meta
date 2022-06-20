@@ -1,0 +1,3962 @@
+fileFormatVersion: 2
+guid: ac4d318b0d5309640b9ff960deb2f831
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 1
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Coin_Numbers_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 949
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e50291f0f9af28543998f084aeed6a05
+      internalID: 548185716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_1
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 946
+        width: 10
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01dc97c15bd7cf34f9e252ca74ef41df
+      internalID: -391802783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_2
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 946
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd80ec3388b30b94796d7626c8bfa557
+      internalID: -1082339858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_3
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 949
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 680a959c86837e64bac6ec595a177c3d
+      internalID: 441466916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_4
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 946
+        width: 10
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89ba8d6f49db754408c47c6beaa36a7c
+      internalID: 1233928226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_5
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 946
+        width: 10
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55b50d3f9c49f5f40b2da2a88139e436
+      internalID: -1981195024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_6
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 946
+        width: 34
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4743e7c7037363e40a8433b68bafafa3
+      internalID: -14712404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_7
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 946
+        width: 52
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c090639e0d3fd243ac1a3f34c71d293
+      internalID: -1780972673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_8
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 949
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e116098a36d58e04f9eed80b8094869f
+      internalID: 886763694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_9
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 946
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4568411f8f79fc42961a7969f707cb3
+      internalID: -985770507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_10
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 949
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b9c7eaf82357af4ba40927e640bd569
+      internalID: -1486917378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_11
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 946
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ef9a506671258d41843d56359d39c3e
+      internalID: -55912022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_12
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 879
+        width: 35
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afeb8f6065922f34b80eb12fa2367988
+      internalID: -1215340999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_13
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 879
+        width: 9
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bde29b9a2bf8a1348b07b2ee8f7d0d00
+      internalID: -1033813563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_14
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 879
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c9d084864a2c344793f0202346e835f
+      internalID: -616800773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_15
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 879
+        width: 52
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ab89cc056b661f49909272287614e80
+      internalID: 169139647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_16
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 879
+        width: 52
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2d9e817ef4658841919d0d83e9b9671
+      internalID: 857808634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_17
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 879
+        width: 53
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fa1dbf8bfb09884bba987085f960914
+      internalID: -1517424367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_18
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 879
+        width: 34
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4fb1cc71a0ba0c4c93291df7b786372
+      internalID: -1382563524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_19
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 879
+        width: 10
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d9516233bb506f43bfc6e0fe5ebebac
+      internalID: -276456329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_20
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 815
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1762012c7f656014e8c84e05dcdcd01c
+      internalID: -1965605487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_21
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 812
+        width: 10
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2585f0d06e73e2d4bbc5410ab89f0d0a
+      internalID: -40075344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_22
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 812
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6f1d6ab6685d1b4eaedf4cd876d8464
+      internalID: 1508290474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_23
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 812
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c639c894cc9c0b84aac4b649bef86194
+      internalID: -845227655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_24
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 812
+        width: 52
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03453159e2562d2479e99e610a23f584
+      internalID: 314159421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_25
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 811
+        width: 34
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bba27f783f61a754788726546cf876b7
+      internalID: 801834777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_26
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 812
+        width: 52
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a817607d5eb24f4dbf9b27f211ad290
+      internalID: -1631086160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_27
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 815
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b7b8d1af297f7a4c86e86c8bff462bf
+      internalID: -1483854451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_28
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 812
+        width: 10
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a90c871c127d4ac42be054820a79082d
+      internalID: -688618495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_29
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 812
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 375994b3c4d6e7a42a7c9ef91f14da66
+      internalID: 717281320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_30
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 748
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66befa9a5aabc9a4bb122afc407a7fe8
+      internalID: 1688916128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_31
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 745
+        width: 10
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71ca9a0ca23d58b4eb557531dcd54bb6
+      internalID: -1293725862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_32
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 745
+        width: 19
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ae0ee7a74c248246a811733e9d7d0d8
+      internalID: -197785156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_33
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 744
+        width: 53
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8c9614fe20409e41b9c4ee8524e6584
+      internalID: 704392391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_34
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 744
+        width: 34
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c62101a947d64249ac25655c22f5302
+      internalID: -530641192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_35
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 744
+        width: 53
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55ebc2d5a871fbd4bbdfb8709ac5aedd
+      internalID: 666806525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_36
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 745
+        width: 52
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aed10b54ff04c024880fa8c8244aa6b7
+      internalID: 1392996991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_37
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 745
+        width: 53
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71155e75caddcbc4f9a583ba824d7566
+      internalID: 487242332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_38
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 678
+        width: 53
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e782805faddca4a418af53e381e91a08
+      internalID: -1437647567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_39
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 678
+        width: 50
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3420d339ddf15d946aa08a4bc4343259
+      internalID: -1187180536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_40
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 678
+        width: 52
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caacfaaf18ded504299ff11626523ebf
+      internalID: 431717997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_41
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 678
+        width: 51
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 461c0c4342c7f27489a47a209bdf3796
+      internalID: -699931023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_42
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 678
+        width: 35
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb349135b51120c489d397e865b6b568
+      internalID: 1224392321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_43
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 678
+        width: 10
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00dbc4de223b39247b36119afba825d4
+      internalID: 1420447638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_44
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 678
+        width: 52
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69e2d59d44bbd8148952d052ae91d67b
+      internalID: -568062488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_45
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 678
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a2639a0661ac8448b0b11a77c50508e
+      internalID: 718533649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_46
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 611
+        width: 51
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06eaff5b604641b41b291615d51ff8f5
+      internalID: -913839794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_47
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 614
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd71660083e50974fa68a264b204283a
+      internalID: -1785514991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_48
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 611
+        width: 10
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7405f4e29b5be9b448e493267d69bf85
+      internalID: 1028738161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_49
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 611
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf77a373efe9eec4f80272ce1f2ee118
+      internalID: -1052535504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_50
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 611
+        width: 52
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7f04ae2f5b09ce4ab033a4ec1742a4d
+      internalID: -396023048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_51
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 614
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4b767724e08ec44bab8947e2de72112
+      internalID: -1360066093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_52
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 611
+        width: 10
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab85b23e5ffdb0b41b4f46d1856dd0ef
+      internalID: 1411282106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_53
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 611
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28a0ff79a2554c343ad08f7167940763
+      internalID: -1970628927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_54
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 611
+        width: 52
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a9f308c2879d94479e7c99c4eae01c1
+      internalID: -1944247087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_55
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 610
+        width: 53
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7cd773694b797843aace5b45dba2d16
+      internalID: 5656264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_56
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 611
+        width: 53
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aa0d0f5c5f257d4b90586fc0d665b54
+      internalID: 2085916196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_57
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 544
+        width: 52
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab7dae1534e4ba343a6844a678f64c50
+      internalID: -873251775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_58
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 543
+        width: 54
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd0a7fb2fd4606e40bae0cc7f45b4730
+      internalID: -1373731725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_59
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 544
+        width: 50
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f86a8a3ca1902345967df722c2fc653
+      internalID: -861854095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_60
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 544
+        width: 35
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aeb9fc42e4d71074d935a13c895ed0e0
+      internalID: 1010100661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_61
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 544
+        width: 51
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20c2db7493c75ae40a316645a0df3c06
+      internalID: 1166467377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_62
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 544
+        width: 51
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be56a2f711ce9d24ca9c6c5b24e1fc85
+      internalID: 27246592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_63
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 543
+        width: 53
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b943a315c54d874a9211527093019a4
+      internalID: -2026280020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_64
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 544
+        width: 50
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68ef8a0aeb52b9c448e70b4d10232bce
+      internalID: -2048047707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_65
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 480
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e5d9e29fc5d3824eb7755b64e823f45
+      internalID: 1990039719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_66
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 477
+        width: 10
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7596adf51e536854a9505105c077c102
+      internalID: -1667222988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_67
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 477
+        width: 51
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 457efe87b95806448a64a91f8bbbd34f
+      internalID: -88477177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_68
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 477
+        width: 34
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39841efb3884d5f4998bd0f7f1222c99
+      internalID: -42477114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_69
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 480
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 771398c00a6cca74b96ada63dee11c2d
+      internalID: 776019273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_70
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 477
+        width: 10
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fca0c52beb02e946a7a06696533a619
+      internalID: -1614928946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_71
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 477
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 614b1f5fad4aa62439fbfdca07c974be
+      internalID: 1483940299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_72
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 477
+        width: 50
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78bb3ab6aa9820142ae24dd4e97c38bc
+      internalID: 341554061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_73
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 477
+        width: 51
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7647c93380f3d854b9aef3d91d4aa7e1
+      internalID: 1734657357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_74
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 477
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58abd82bcebeefb459b0539e52e162c4
+      internalID: 713874185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_75
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 477
+        width: 52
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a61cb1a3015fd9e4ca0bea814bd8ae91
+      internalID: -973115494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_76
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 472
+        width: 29
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60e54e9836cbf8341888862e18b1992f
+      internalID: 28469289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_77
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 410
+        width: 36
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43154c49b469eda4cbf0e86543242074
+      internalID: 1806373927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_78
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 410
+        width: 10
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fbfdb4f812aba4488060551ac91c4d4
+      internalID: 1294648994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_79
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 413
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a755d709c3f9ec648ade50d6bcf897a5
+      internalID: 2055425613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_80
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 410
+        width: 10
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9643d07bfffce34fa0e63a850c2dbe3
+      internalID: -815002633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_81
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 410
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89a6acd53a230bc43a258ce1c417e6b9
+      internalID: -889207040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_82
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 410
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f2dc25e504100e409dfc7e8a0370876
+      internalID: -750350753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_83
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 410
+        width: 10
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4239ecb4a02acad48aba0ef934a120be
+      internalID: 1387355733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_84
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 410
+        width: 34
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 904f6dcfbbf92394ca95b390e508fba2
+      internalID: -542476596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_85
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 410
+        width: 52
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9294cfc89514b7040a7bd66f2d0ec54a
+      internalID: -1087145954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_86
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 413
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 077f21cd2cdfd184b88898e6985f6041
+      internalID: 39861316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_87
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 410
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cd5ac75cc5700b4b97afc207f7a153f
+      internalID: -61523786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_88
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 410
+        width: 52
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e0c78fc9f2005145b4348fa6c2000d6
+      internalID: -1169665307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_89
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 410
+        width: 53
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 528457f84377feb4196fca5a81e91a82
+      internalID: -512995240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_90
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 409
+        width: 54
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f69cb160494dc5d4fad178b310217e02
+      internalID: 218147349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_91
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 346
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fcaaeec86e091547a4930bd0bf23e61
+      internalID: -118310458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_92
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 343
+        width: 10
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79676cde2f3305d4aa4c8563fd054003
+      internalID: 1709156156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_93
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 343
+        width: 52
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce2d857fa92348449b88c33bd3d29c57
+      internalID: 816076822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_94
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 343
+        width: 54
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 280cca7647d435e4b87c860940875f53
+      internalID: -2046077571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_95
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 343
+        width: 52
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bf61b4141e3b4047b0cdd37a6abf894
+      internalID: 251227792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_96
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 343
+        width: 52
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0712b58e0fc3ae0448baebdf7e138a9b
+      internalID: -1772056557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_97
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 343
+        width: 51
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27a9a11c7267cad4e962e719c6ba21b4
+      internalID: 1622982599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_98
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 343
+        width: 52
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13860028dd9291545b5b6db5a56c8437
+      internalID: -592381749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_99
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 343
+        width: 51
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3728bfead89ad864eb96e339147a9a92
+      internalID: -71369731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_100
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 343
+        width: 35
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5de3e6846913c7b47a1dabafe090f587
+      internalID: -778378238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_101
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 276
+        width: 53
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c6b5d62bcc546748a0f86a9e41ef9b3
+      internalID: 724840288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_102
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 279
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3a4e4d810a2e15488191ec81979e814
+      internalID: 846631815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_103
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 276
+        width: 10
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2abc75ad89b17146a0cb4bb94d44daa
+      internalID: -1421448647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_104
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 276
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 165bfa00c96fe084293561726fa4d7d3
+      internalID: -860504299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_105
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 276
+        width: 50
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69d6a465501f8f24eaf74583f954536c
+      internalID: -1315734238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_106
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 276
+        width: 52
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3525c6531c30c554c91d4c91ca2cc0ac
+      internalID: -1885000874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_107
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 276
+        width: 53
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e3b7cfec30de544cb40b8985afc9f89
+      internalID: -1714168483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_108
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 276
+        width: 54
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaeaf6601a0c88940b6a40872ca91ba0
+      internalID: -1263544215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_109
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 279
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b55628977d23f7442ba3ce62f981e4d7
+      internalID: 1384824397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_110
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 276
+        width: 10
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d9a5fb41489de64e937c8ba6ed4dcbc
+      internalID: -882302271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_111
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 276
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ac06638706567a42bcff1b24c739030
+      internalID: -706175495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_112
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 276
+        width: 34
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2841b6d04bd31a846b7c0548ae3fa72d
+      internalID: -1491617654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_113
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 276
+        width: 33
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3de51deb76dd76d40b3ad9271d5059a0
+      internalID: -978166031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_114
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 270
+        width: 26
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de450338607786f46844e853412b8605
+      internalID: -333656555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_115
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 209
+        width: 34
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 689ef337a6c381940aa14166a409ef49
+      internalID: 1172448814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_116
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 209
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 412ee5c4b28dc1941b0da8c5b8588ad8
+      internalID: 1817544097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_117
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 209
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cdb64a25fd30b240b47c5b3a1d3e02b
+      internalID: 1044222250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_118
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 209
+        width: 10
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b87761d992efbd43b5d858c61d29859
+      internalID: -1181119564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_119
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 209
+        width: 53
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ffc1888c076fef4eb45e5c7ce3058e9
+      internalID: -908877375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_120
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 209
+        width: 35
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d60a9071b3a6f944a8ba9246259b395
+      internalID: 1744046118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_121
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 209
+        width: 54
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 067baa31cdd6ed448bfbcddc89aa6c9b
+      internalID: 1115694524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_122
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 212
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4120d162245333642a09b296a455da30
+      internalID: 271165814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_123
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 209
+        width: 10
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fea1cf3f16d24e642b6cc997f5223a83
+      internalID: -1943101929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_124
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 209
+        width: 19
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36d0a2f16dc765640b08eb7f18c18c64
+      internalID: -332787640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_125
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 209
+        width: 50
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01cccd96c07fd33408d68864c6fda862
+      internalID: 69646544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_126
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 212
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31cbd8cb483fa1042a4c286ac34f9e45
+      internalID: -2088968371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_127
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 209
+        width: 10
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44f7fdf5c8a228a42941504e5f6bc5f3
+      internalID: -1464088713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_128
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 208
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82b0b71685826c14996c14e63f994246
+      internalID: 52619910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_129
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 209
+        width: 52
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92be18b4477922d40a9abd6a62de4534
+      internalID: -700689841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_130
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 142
+        width: 34
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5fcd75750ba32e409ffbf6c86511d43
+      internalID: 2139367044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_131
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 142
+        width: 10
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b22d3e8432023d242a9dad24ce1efa53
+      internalID: 1902035786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_132
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 142
+        width: 52
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0444c5bd2694e8345ba925734a782d32
+      internalID: -795561753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_133
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 142
+        width: 52
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b2df8ff16b8df8459ce2270e50c33a1
+      internalID: 1086222869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_134
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 142
+        width: 52
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcedf6954814390469f602319107149c
+      internalID: -2124130660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_135
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 142
+        width: 54
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8f8087b86852b44b853f955585c592f
+      internalID: -1541629744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_136
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 142
+        width: 53
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24479d66170d249449ab706a077e0694
+      internalID: -280766961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_137
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 141
+        width: 53
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cccc5d02b075fd2449c2334f0c5ca58f
+      internalID: -741121997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_138
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 142
+        width: 53
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41953514a7949204dadf93128ea8fd0a
+      internalID: -1800749785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_139
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 145
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9772d6d2e31b8b148a68945d8d62f9e2
+      internalID: 1952665299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_140
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 142
+        width: 10
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2b5e14b8bf1f4c4aa5b938805c209f1
+      internalID: -2137143588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_141
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 141
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f10c746f5242304d889112751374465
+      internalID: 1892915833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_142
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 142
+        width: 52
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a953c3b2354321241b4d797c2d872af5
+      internalID: -1579249058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_143
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 78
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d89e82ace69e9a469f0a0b47cb97016
+      internalID: 422122290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_144
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 75
+        width: 10
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a11179c599813c4cb6f514f772aa43d
+      internalID: 175160414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_145
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 75
+        width: 10
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f5a4611a913a6f4bbe64cc3f9c1129c
+      internalID: -517633190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_146
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 75
+        width: 52
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4221be6c0ce2c5345b94c7eaac490b6b
+      internalID: 1083790775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_147
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 75
+        width: 53
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 265ba4a55155a8c4a99a76d7c891553c
+      internalID: -843306007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_148
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 75
+        width: 51
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 938fd82eee0fce94491c35d94d82cf83
+      internalID: -231706869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_149
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 78
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c2ca054f134fd54fa2dc1ea2444a70a
+      internalID: 879951497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_150
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 75
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 180901ae8d6937e40bedce2ac0c9f424
+      internalID: 492093153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_151
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 74
+        width: 54
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c2fd8841beb3004a8296e63b78576ee
+      internalID: -1343109712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_152
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 75
+        width: 51
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2440af50f32b0e64eba4a88f35ba0f0d
+      internalID: 546172224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_153
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 75
+        width: 52
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 002bf10124b7f444fba8122582d98726
+      internalID: 510027017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_154
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 74
+        width: 55
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e682b31f853d2e4884af4ee35a3972c
+      internalID: -240693508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_155
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 74
+        width: 53
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a27cf2746f9f89849881d1d1f13f82e4
+      internalID: 358221686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_156
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 8
+        width: 53
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ba5ad0964489524ab5bdb0e13f629ce
+      internalID: 1634344735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_157
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 8
+        width: 51
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 844048832784e8f49b08298dd5013be8
+      internalID: 507496050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_158
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 8
+        width: 54
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de27772d556825c479104730b29d220c
+      internalID: -1903210540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_159
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 11
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f8dec6824951444ab469c4170421a8b
+      internalID: -1186103100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_160
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 8
+        width: 10
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8bc9443653ac714fbf0240611ef3f48
+      internalID: 1917554887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_161
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 8
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b25d338fd5d1ab24a9e465d8d04ec8cc
+      internalID: -854610531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_162
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 8
+        width: 51
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d35c0d1e5b2b21649b30a0c90532ccba
+      internalID: 1536681745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_163
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 11
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3b5b1a219d61b04397b9ca0a2b5819c
+      internalID: 2138227502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_164
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 8
+        width: 10
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe9820af260fdca499b93d44231a6a4c
+      internalID: -553185034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_165
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 8
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25d4debc66ec0d74982c275fa83da4f7
+      internalID: -40508581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_166
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 8
+        width: 51
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c130081d0f330e442b41c91a06ab23b5
+      internalID: 1978689958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_167
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 8
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58c82f4101d9356408d0e53e9189e1ca
+      internalID: -1874037280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_168
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 8
+        width: 10
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e403fdbbaab5a4943867e1876a173c71
+      internalID: -951022011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_169
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 8
+        width: 51
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ac6a8e01c34060478164de0965d44a7
+      internalID: -1411687972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_170
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 11
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 408a4487e8fd946448c084920049ad65
+      internalID: 1945136766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_171
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 8
+        width: 10
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56504faa55f23cc46ae5989b6c1fd6b7
+      internalID: 1282969372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_172
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 8
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 852c9bd14df5a4e47ae52390ecb6351e
+      internalID: 2012932369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Numbers_173
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 8
+        width: 51
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4805d01600cb5d444832dc73b15c22d8
+      internalID: -2129430213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Coin_Numbers_30: 1688916128
+      Coin_Numbers_11: -55912022
+      Coin_Numbers_170: 1945136766
+      Coin_Numbers_150: 492093153
+      Coin_Numbers_121: 1115694524
+      Coin_Numbers_60: 1010100661
+      Coin_Numbers_137: -741121997
+      Coin_Numbers_9: -985770507
+      Coin_Numbers_33: 704392391
+      Coin_Numbers_116: 1817544097
+      Coin_Numbers_167: -1874037280
+      Coin_Numbers_32: -197785156
+      Coin_Numbers_97: 1622982599
+      Coin_Numbers_156: 1634344735
+      Coin_Numbers_87: -61523786
+      Coin_Numbers_92: 1709156156
+      Coin_Numbers_135: -1541629744
+      Coin_Numbers_133: 1086222869
+      Coin_Numbers_37: 487242332
+      Coin_Numbers_154: -240693508
+      Coin_Numbers_77: 1806373927
+      Coin_Numbers_39: -1187180536
+      Coin_Numbers_124: -332787640
+      Coin_Numbers_47: -1785514991
+      Coin_Numbers_147: -843306007
+      Coin_Numbers_13: -1033813563
+      Coin_Numbers_41: -699931023
+      Coin_Numbers_130: 2139367044
+      Coin_Numbers_55: 5656264
+      Coin_Numbers_151: -1343109712
+      Coin_Numbers_114: -333656555
+      Coin_Numbers_152: 546172224
+      Coin_Numbers_24: 314159421
+      Coin_Numbers_88: -1169665307
+      Coin_Numbers_42: 1224392321
+      Coin_Numbers_82: -750350753
+      Coin_Numbers_85: -1087145954
+      Coin_Numbers_149: 879951497
+      Coin_Numbers_118: -1181119564
+      Coin_Numbers_2: -1082339858
+      Coin_Numbers_5: -1981195024
+      Coin_Numbers_27: -1483854451
+      Coin_Numbers_108: -1263544215
+      Coin_Numbers_98: -592381749
+      Coin_Numbers_43: 1420447638
+      Coin_Numbers_140: -2137143588
+      Coin_Numbers_103: -1421448647
+      Coin_Numbers_90: 218147349
+      Coin_Numbers_49: -1052535504
+      Coin_Numbers_75: -973115494
+      Coin_Numbers_111: -706175495
+      Coin_Numbers_148: -231706869
+      Coin_Numbers_129: -700689841
+      Coin_Numbers_18: -1382563524
+      Coin_Numbers_115: 1172448814
+      Coin_Numbers_63: -2026280020
+      Coin_Numbers_163: 2138227502
+      Coin_Numbers_15: 169139647
+      Coin_Numbers_14: -616800773
+      Coin_Numbers_153: 510027017
+      Coin_Numbers_89: -512995240
+      Coin_Numbers_157: 507496050
+      Coin_Numbers_78: 1294648994
+      Coin_Numbers_100: -778378238
+      Coin_Numbers_94: -2046077571
+      Coin_Numbers_10: -1486917378
+      Coin_Numbers_45: 718533649
+      Coin_Numbers_136: -280766961
+      Coin_Numbers_23: -845227655
+      Coin_Numbers_70: -1614928946
+      Coin_Numbers_134: -2124130660
+      Coin_Numbers_109: 1384824397
+      Coin_Numbers_62: 27246592
+      Coin_Numbers_65: 1990039719
+      Coin_Numbers_86: 39861316
+      Coin_Numbers_145: -517633190
+      Coin_Numbers_26: -1631086160
+      Coin_Numbers_162: 1536681745
+      Coin_Numbers_52: 1411282106
+      Coin_Numbers_51: -1360066093
+      Coin_Numbers_166: 1978689958
+      Coin_Numbers_107: -1714168483
+      Coin_Numbers_139: 1952665299
+      Coin_Numbers_160: 1917554887
+      Coin_Numbers_168: -951022011
+      Coin_Numbers_44: -568062488
+      Coin_Numbers_169: -1411687972
+      Coin_Numbers_73: 1734657357
+      Coin_Numbers_171: 1282969372
+      Coin_Numbers_16: 857808634
+      Coin_Numbers_71: 1483940299
+      Coin_Numbers_50: -396023048
+      Coin_Numbers_146: 1083790775
+      Coin_Numbers_48: 1028738161
+      Coin_Numbers_1: -391802783
+      Coin_Numbers_81: -889207040
+      Coin_Numbers_161: -854610531
+      Coin_Numbers_110: -882302271
+      Coin_Numbers_96: -1772056557
+      Coin_Numbers_95: 251227792
+      Coin_Numbers_131: 1902035786
+      Coin_Numbers_99: -71369731
+      Coin_Numbers_113: -978166031
+      Coin_Numbers_84: -542476596
+      Coin_Numbers_31: -1293725862
+      Coin_Numbers_104: -860504299
+      Coin_Numbers_19: -276456329
+      Coin_Numbers_165: -40508581
+      Coin_Numbers_53: -1970628927
+      Coin_Numbers_80: -815002633
+      Coin_Numbers_66: -1667222988
+      Coin_Numbers_106: -1885000874
+      Coin_Numbers_8: 886763694
+      Coin_Numbers_17: -1517424367
+      Coin_Numbers_69: 776019273
+      Coin_Numbers_173: -2129430213
+      Coin_Numbers_128: 52619910
+      Coin_Numbers_54: -1944247087
+      Coin_Numbers_21: -40075344
+      Coin_Numbers_142: -1579249058
+      Coin_Numbers_29: 717281320
+      Coin_Numbers_76: 28469289
+      Coin_Numbers_28: -688618495
+      Coin_Numbers_143: 422122290
+      Coin_Numbers_56: 2085916196
+      Coin_Numbers_34: -530641192
+      Coin_Numbers_144: 175160414
+      Coin_Numbers_25: 801834777
+      Coin_Numbers_7: -1780972673
+      Coin_Numbers_46: -913839794
+      Coin_Numbers_127: -1464088713
+      Coin_Numbers_123: -1943101929
+      Coin_Numbers_20: -1965605487
+      Coin_Numbers_57: -873251775
+      Coin_Numbers_6: -14712404
+      Coin_Numbers_68: -42477114
+      Coin_Numbers_122: 271165814
+      Coin_Numbers_3: 441466916
+      Coin_Numbers_4: 1233928226
+      Coin_Numbers_36: 1392996991
+      Coin_Numbers_58: -1373731725
+      Coin_Numbers_132: -795561753
+      Coin_Numbers_12: -1215340999
+      Coin_Numbers_126: -2088968371
+      Coin_Numbers_138: -1800749785
+      Coin_Numbers_61: 1166467377
+      Coin_Numbers_105: -1315734238
+      Coin_Numbers_120: 1744046118
+      Coin_Numbers_101: 724840288
+      Coin_Numbers_0: 548185716
+      Coin_Numbers_67: -88477177
+      Coin_Numbers_102: 846631815
+      Coin_Numbers_38: -1437647567
+      Coin_Numbers_64: -2048047707
+      Coin_Numbers_125: 69646544
+      Coin_Numbers_74: 713874185
+      Coin_Numbers_155: 358221686
+      Coin_Numbers_79: 2055425613
+      Coin_Numbers_59: -861854095
+      Coin_Numbers_83: 1387355733
+      Coin_Numbers_91: -118310458
+      Coin_Numbers_93: 816076822
+      Coin_Numbers_119: -908877375
+      Coin_Numbers_40: 431717997
+      Coin_Numbers_141: 1892915833
+      Coin_Numbers_159: -1186103100
+      Coin_Numbers_72: 341554061
+      Coin_Numbers_164: -553185034
+      Coin_Numbers_172: 2012932369
+      Coin_Numbers_117: 1044222250
+      Coin_Numbers_158: -1903210540
+      Coin_Numbers_112: -1491617654
+      Coin_Numbers_22: 1508290474
+      Coin_Numbers_35: 666806525
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

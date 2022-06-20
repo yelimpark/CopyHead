@@ -4,8 +4,12 @@ using UnityEngine;
 
 public class PlayerWorldMapMove : MonoBehaviour
 {
+    public Transform speechBubble;
+
     public float speed = 1f;
     private Animator animator;
+    int isFliped = 1;
+    public int IsFliped { get { return isFliped; } }
 
     private void SetAnimationDir(string axisName, float axis)
     {
@@ -45,8 +49,16 @@ public class PlayerWorldMapMove : MonoBehaviour
         SetAnimationDir("Horizontal", h);
         SetAnimationDir("Vertical", v);
 
-        int isFliped = (h < 0) ? -1 : 1;
-        transform.localScale = new Vector3(isFliped, 1, 1);
+        if (h * isFliped < 0)
+        {
+            isFliped = isFliped * (-1);
+            transform.localScale = new Vector3(isFliped, 1, 1);
+        }
+
+        if (speechBubble.localScale.x == 1 && isFliped == -1)
+        {
+            speechBubble.localScale = new Vector3(-1, 1, 1);
+        }
     }
 }
 
