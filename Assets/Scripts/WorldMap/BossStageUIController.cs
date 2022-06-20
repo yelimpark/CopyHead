@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class BossStageUIController : MonoBehaviour
 {
@@ -14,6 +15,9 @@ public class BossStageUIController : MonoBehaviour
     CanvasGroup canvasGroup;
 
     public PlayerWorldMapMove player;
+
+    public Image cardText;
+    public BuildingDefinition def;
 
     private void Awake()
     {
@@ -29,6 +33,8 @@ public class BossStageUIController : MonoBehaviour
             "easetype", iTween.EaseType.easeOutBack
         ));
         StartCoroutine(Fade.CoFadeIn(canvasGroup, TransitionTime));
+        if (def != null)
+            cardText.sprite = def.cardTextSprite;
     }
 
     void SetDifficulty(int offset)
@@ -59,7 +65,7 @@ public class BossStageUIController : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Z))
         {
-            
+            SceneManager.LoadScene(def.bossSceneName);
         }
     }
 

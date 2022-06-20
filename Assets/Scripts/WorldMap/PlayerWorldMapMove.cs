@@ -55,9 +55,9 @@ public class PlayerWorldMapMove : MonoBehaviour
             transform.localScale = new Vector3(isFliped, 1, 1);
         }
 
-        if (speechBubble.localScale.x == 1 && isFliped == -1)
+        if (speechBubble.localScale.x * isFliped < 0)
         {
-            speechBubble.localScale = new Vector3(-1, 1, 1);
+            speechBubble.localScale = new Vector3(isFliped, 1, 1);
         }
     }
 }
