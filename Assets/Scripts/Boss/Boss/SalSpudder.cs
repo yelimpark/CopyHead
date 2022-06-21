@@ -27,7 +27,7 @@ public class SalSpudder : MonoBehaviour
 
                 case State.ATTACK:
                     if (curState == State.HOLD)
-                        animator.Rebind();
+                        animator.Play("SalSpudder_Attack", -1 ,0f);
 
                     else if (curState == State.IDLE)
                         animator.SetBool("Attack", true);
@@ -93,7 +93,7 @@ public class SalSpudder : MonoBehaviour
             if (bulletIdx == Bullets.Count - 1)
             {
                 bulletIdx = 0;
-                curState = State.IDLE;
+                CurState = State.IDLE;
                 return;
             }
 
