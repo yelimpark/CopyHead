@@ -17,6 +17,8 @@ public class BossStageUIController : MonoBehaviour
     public PlayerWorldMapMove player;
 
     public Image cardText;
+
+    [System.NonSerialized]
     public BuildingDefinition def;
 
     private void Awake()

@@ -1344,7 +1344,6 @@ MonoBehaviour:
   TransitionTime: 1
   player: {fileID: 229921314}
   cardText: {fileID: 1105764787}
-  def: {fileID: 0}
 --- !u!1 &512499066
 GameObject:
   m_ObjectHideFlags: 0

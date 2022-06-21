@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: dc005e26a766e39438a916085791cd42
+guid: 233033136c4dd8d4c88c82aa6eb4cba6
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -66,7 +66,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 16384
+    maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -116,11 +116,11 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Potato_Spit_Attack_0
+      name: Sal Spudder_Intro_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
+        x: 4
+        y: 1579
         width: 526
         height: 512
       alignment: 0
@@ -130,18 +130,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bf4b3f9ad14718942aa27dbcd53c043b
-      internalID: -1225587867
+      spriteID: 2023f3172f7498b4aa0146057c5a9bda
+      internalID: 1566038333
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Potato_Spit_Attack_1
+      name: Sal Spudder_Intro_1
       rect:
         serializedVersion: 2
-        x: 526
-        y: 0
+        x: 535
+        y: 1579
         width: 526
         height: 512
       alignment: 0
@@ -151,18 +151,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1aba4474dcd6bae4e9fd44462d4d8ec8
-      internalID: -689745484
+      spriteID: d0a70875200cbb946aac4e6279c0a50c
+      internalID: -1814162590
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Potato_Spit_Attack_2
+      name: Sal Spudder_Intro_2
       rect:
         serializedVersion: 2
-        x: 1052
-        y: 0
+        x: 1066
+        y: 1579
         width: 526
         height: 512
       alignment: 0
@@ -172,18 +172,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 20dc7abeaa8ef8849b7635b8ff96a2a5
-      internalID: 2137641418
+      spriteID: 226f255f2c1bda4469c766b883831e32
+      internalID: 268168462
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Potato_Spit_Attack_3
+      name: Sal Spudder_Intro_3
       rect:
         serializedVersion: 2
-        x: 1578
-        y: 0
+        x: 1597
+        y: 1579
         width: 526
         height: 512
       alignment: 0
@@ -193,18 +193,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8ffb2eb51f7abac4a98e73f86b812c93
-      internalID: -273979339
+      spriteID: cbb75e1474669f34e800c44622bed54b
+      internalID: 535466479
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Potato_Spit_Attack_4
+      name: Sal Spudder_Intro_4
       rect:
         serializedVersion: 2
-        x: 2104
-        y: 0
+        x: 2128
+        y: 1579
         width: 526
         height: 512
       alignment: 0
@@ -214,18 +214,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: df8ec32222fd16b40b2c23e832e1ffc2
-      internalID: -1777803168
+      spriteID: b253b4cbfa99df64fbf4a7c918a20efc
+      internalID: -1922475086
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Potato_Spit_Attack_5
+      name: Sal Spudder_Intro_5
       rect:
         serializedVersion: 2
-        x: 2630
-        y: 0
+        x: 2659
+        y: 1579
         width: 526
         height: 512
       alignment: 0
@@ -235,18 +235,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 588cdcef1d51fd04ca1e37277bce85bb
-      internalID: -1650750085
+      spriteID: 4109c3d20c5443d44b3cf7af9a42f0ce
+      internalID: -800331287
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Potato_Spit_Attack_6
+      name: Sal Spudder_Intro_6
       rect:
         serializedVersion: 2
-        x: 3156
-        y: 0
+        x: 4
+        y: 1062
         width: 526
         height: 512
       alignment: 0
@@ -256,18 +256,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: de29a1fce53dae4498230c5e69209998
-      internalID: 575256044
+      spriteID: 45de18bd31063c948a365d1bf1f25505
+      internalID: 1580378872
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Potato_Spit_Attack_7
+      name: Sal Spudder_Intro_7
       rect:
         serializedVersion: 2
-        x: 3682
-        y: 0
+        x: 535
+        y: 1062
         width: 526
         height: 512
       alignment: 0
@@ -277,18 +277,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: af3f4bee0e1055c429727b743643484d
-      internalID: -485804485
+      spriteID: e3d2fb5c2fd2bd94890e38093da76d6e
+      internalID: 437911679
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Potato_Spit_Attack_8
+      name: Sal Spudder_Intro_8
       rect:
         serializedVersion: 2
-        x: 4208
-        y: 0
+        x: 1066
+        y: 1062
         width: 526
         height: 512
       alignment: 0
@@ -298,18 +298,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: add7f2869ac47ba4e9ae9f226c58b8e7
-      internalID: 453235115
+      spriteID: cb3e91362c339094f9fbe0d4735436c6
+      internalID: 345864674
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Potato_Spit_Attack_9
+      name: Sal Spudder_Intro_9
       rect:
         serializedVersion: 2
-        x: 4734
-        y: 0
+        x: 1597
+        y: 1062
         width: 526
         height: 512
       alignment: 0
@@ -319,18 +319,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3bf78c9a20d7ba04e83018f48fda41a5
-      internalID: -547833749
+      spriteID: 25d0bef5f9030b044836bfe9ff7eb114
+      internalID: -71954738
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Potato_Spit_Attack_10
+      name: Sal Spudder_Intro_10
       rect:
         serializedVersion: 2
-        x: 5260
-        y: 0
+        x: 2128
+        y: 1062
         width: 526
         height: 512
       alignment: 0
@@ -340,18 +340,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 80d88b6abcee4b94fb8737c2be24e033
-      internalID: 292750323
+      spriteID: 9b7a9da2d11a7334daf9693da326d7f4
+      internalID: -1125839093
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Potato_Spit_Attack_11
+      name: Sal Spudder_Intro_11
       rect:
         serializedVersion: 2
-        x: 5786
-        y: 0
+        x: 2659
+        y: 1062
         width: 526
         height: 512
       alignment: 0
@@ -361,18 +361,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6e5d9495a7b992e4ca0fa1e688d43736
-      internalID: 1286961856
+      spriteID: 488d1b5c017cf5948bba844232d765c0
+      internalID: 1668112095
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Potato_Spit_Attack_12
+      name: Sal Spudder_Intro_12
       rect:
         serializedVersion: 2
-        x: 6312
-        y: 0
+        x: 4
+        y: 545
         width: 526
         height: 512
       alignment: 0
@@ -382,18 +382,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 924039febe7e0664c822f7dd6904c55f
-      internalID: -228439180
+      spriteID: 99c8952a200b7d742a6767cfcb1b0a69
+      internalID: 190303833
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Potato_Spit_Attack_13
+      name: Sal Spudder_Intro_13
       rect:
         serializedVersion: 2
-        x: 6838
-        y: 0
+        x: 535
+        y: 545
         width: 526
         height: 512
       alignment: 0
@@ -403,18 +403,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 390d28bfcb094ac4b97d3e95af483bc2
-      internalID: -1945534402
+      spriteID: 2e3f8b3c3cd37074782676391bcb7702
+      internalID: 78681931
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Potato_Spit_Attack_14
+      name: Sal Spudder_Intro_14
       rect:
         serializedVersion: 2
-        x: 7364
-        y: 0
+        x: 1066
+        y: 545
         width: 526
         height: 512
       alignment: 0
@@ -424,18 +424,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e8baeaa6ad2bc14439b0ab316dcbbfe9
-      internalID: -1022161419
+      spriteID: dec511bde5332a64db89007232ca736a
+      internalID: -701589251
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Potato_Spit_Attack_15
+      name: Sal Spudder_Intro_15
       rect:
         serializedVersion: 2
-        x: 7890
-        y: 0
+        x: 1597
+        y: 545
         width: 526
         height: 512
       alignment: 0
@@ -445,18 +445,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 708345b37e5cfbb409100cc0a596294c
-      internalID: 1477975990
+      spriteID: eef585d053a24d24fadfc20e67f42af7
+      internalID: 867609534
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Potato_Spit_Attack_16
+      name: Sal Spudder_Intro_16
       rect:
         serializedVersion: 2
-        x: 8416
-        y: 0
+        x: 2128
+        y: 545
         width: 526
         height: 512
       alignment: 0
@@ -466,18 +466,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c135697d77e67e14d8efee928c94db1a
-      internalID: -1437648926
+      spriteID: 589c9909e8f1c7f4b9621df7d1547307
+      internalID: -845561947
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Potato_Spit_Attack_17
+      name: Sal Spudder_Intro_17
       rect:
         serializedVersion: 2
-        x: 8942
-        y: 0
+        x: 2659
+        y: 545
         width: 526
         height: 512
       alignment: 0
@@ -487,18 +487,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f02d65504eff2f04fae521e09602dfdb
-      internalID: 1900978221
+      spriteID: 9e21a62e8c9c71c4c914fabe0d397611
+      internalID: 1994491121
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Potato_Spit_Attack_18
+      name: Sal Spudder_Intro_18
       rect:
         serializedVersion: 2
-        x: 9468
-        y: 0
+        x: 4
+        y: 28
         width: 526
         height: 512
       alignment: 0
@@ -508,18 +508,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8d2ded7c68a79634fb0cd27d11b8999c
-      internalID: -1868873068
+      spriteID: f709481986a5a6445a3eeb6fdcd870bb
+      internalID: 32622975
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Potato_Spit_Attack_19
+      name: Sal Spudder_Intro_19
       rect:
         serializedVersion: 2
-        x: 9994
-        y: 0
+        x: 535
+        y: 28
         width: 526
         height: 512
       alignment: 0
@@ -529,92 +529,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 16212790d20b70f46a2aa64cc6a774fa
-      internalID: 1622072258
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Potato_Spit_Attack_20
-      rect:
-        serializedVersion: 2
-        x: 10520
-        y: 0
-        width: 526
-        height: 512
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5e81add022aec534bb69643969f47232
-      internalID: 212457978
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Potato_Spit_Attack_21
-      rect:
-        serializedVersion: 2
-        x: 11046
-        y: 0
-        width: 526
-        height: 512
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 974e26ad55d25cb42a1b01a6ff224be6
-      internalID: -714827883
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Potato_Spit_Attack_22
-      rect:
-        serializedVersion: 2
-        x: 11572
-        y: 0
-        width: 526
-        height: 512
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 32ff25a0d526ee04aa91a52b7cbf153f
-      internalID: 1799908703
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Potato_Spit_Attack_23
-      rect:
-        serializedVersion: 2
-        x: 12098
-        y: 0
-        width: 526
-        height: 512
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6999d09dfa6152b4a9233c86baa2031d
-      internalID: -2023809776
+      spriteID: 8db405013f64c1d49bd30f7de9f3c760
+      internalID: 1482685600
       vertices: []
       indices: 
       edges: []
@@ -630,30 +546,30 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Potato_Spit_Attack_6: 575256044
-      Potato_Spit_Attack_3: -273979339
-      Potato_Spit_Attack_8: 453235115
-      Potato_Spit_Attack_0: -1225587867
-      Potato_Spit_Attack_1: -689745484
-      Potato_Spit_Attack_22: 1799908703
-      Potato_Spit_Attack_17: 1900978221
-      Potato_Spit_Attack_16: -1437648926
-      Potato_Spit_Attack_10: 292750323
-      Potato_Spit_Attack_13: -1945534402
-      Potato_Spit_Attack_4: -1777803168
-      Potato_Spit_Attack_11: 1286961856
-      Potato_Spit_Attack_19: 1622072258
-      Potato_Spit_Attack_14: -1022161419
-      Potato_Spit_Attack_20: 212457978
-      Potato_Spit_Attack_21: -714827883
-      Potato_Spit_Attack_9: -547833749
-      Potato_Spit_Attack_18: -1868873068
-      Potato_Spit_Attack_2: 2137641418
-      Potato_Spit_Attack_15: 1477975990
-      Potato_Spit_Attack_12: -228439180
-      Potato_Spit_Attack_7: -485804485
-      Potato_Spit_Attack_23: -2023809776
-      Potato_Spit_Attack_5: -1650750085
+      Sal Spudder_Intro_12: 190303833
+      Sal Spudder_Intro_16: -845561947
+      Sal Spudder_Intro_23: 1030220675
+      Sal Spudder_Intro_18: 32622975
+      Sal Spudder_Intro_11: 1668112095
+      Sal Spudder_Intro_22: 1859336973
+      Sal Spudder_Intro_8: 345864674
+      Sal Spudder_Intro_10: -1125839093
+      Sal Spudder_Intro_4: -1922475086
+      Sal Spudder_Intro_17: 1994491121
+      Sal Spudder_Intro_13: 78681931
+      Sal Spudder_Intro_0: 1566038333
+      Sal Spudder_Intro_5: -800331287
+      Sal Spudder_Intro_14: -701589251
+      Sal Spudder_Intro_20: -427834305
+      Sal Spudder_Intro_7: 437911679
+      Sal Spudder_Intro_15: 867609534
+      Sal Spudder_Intro_3: 535466479
+      Sal Spudder_Intro_9: -71954738
+      Sal Spudder_Intro_19: 1482685600
+      Sal Spudder_Intro_21: 752659732
+      Sal Spudder_Intro_2: 268168462
+      Sal Spudder_Intro_6: 1580378872
+      Sal Spudder_Intro_1: -1814162590
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
