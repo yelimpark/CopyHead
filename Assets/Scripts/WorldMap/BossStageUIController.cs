@@ -74,6 +74,7 @@ public class BossStageUIController : MonoBehaviour
     private void OnDisable()
     {
         card.transform.localScale = Vector3.zero;
-        player.enabled = true;
+        if (player != null)
+            player.enabled = true;
     }
 }

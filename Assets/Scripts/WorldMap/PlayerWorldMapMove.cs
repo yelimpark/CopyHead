@@ -8,8 +8,6 @@ public class PlayerWorldMapMove : MonoBehaviour
 
     public float speed = 1f;
     private Animator animator;
-    int isFliped = 1;
-    public int IsFliped { get { return isFliped; } }
 
     private void SetAnimationDir(string axisName, float axis)
     {
@@ -49,15 +47,15 @@ public class PlayerWorldMapMove : MonoBehaviour
         SetAnimationDir("Horizontal", h);
         SetAnimationDir("Vertical", v);
 
-        if (h * isFliped < 0)
+        float scaleX = transform.localScale.x;
+        if (h * scaleX < 0)
         {
-            isFliped = isFliped * (-1);
-            transform.localScale = new Vector3(isFliped, 1, 1);
+            transform.localScale = new Vector3(scaleX * (-1), 1, 1);
         }
 
-        if (speechBubble.localScale.x * isFliped < 0)
+        if (speechBubble.localScale.x * scaleX < 0)
         {
-            speechBubble.localScale = new Vector3(isFliped, 1, 1);
+            speechBubble.localScale = new Vector3(scaleX, 1, 1);
         }
     }
 }

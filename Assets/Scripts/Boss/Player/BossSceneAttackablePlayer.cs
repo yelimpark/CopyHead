@@ -4,12 +4,13 @@ using UnityEngine;
 
 public class BossSceneAttackablePlayer : MonoBehaviour
 {
-    private bool invisible = false;
-
     private Animator animator;
     private BossScenePlayerMove playerMove;
 
-    private int Life;
+    public int Life { get; private set; }
+
+
+    public GameObject goast;
 
     private void Start()
     {
@@ -19,20 +20,31 @@ public class BossSceneAttackablePlayer : MonoBehaviour
         Life = GameVal.Instnace.MaxLife;
     }
 
-    public void OnHitted()
+    public bool OnHitted()
     {
-        if (invisible)
-            return;
+
+        if (animator.GetBool("Shift"))
+            return false;
 
         --Life;
-        
+
         if (Life <= 0)
         {
-            animator.SetTrigger("Die");
+            Instantiate(goast, transform.position, transform.rotation);
+            Destroy(gameObject);
         }
         else
         {
-            animator.SetTrigger("Attacked");
+            playerMove.enabled = false;
+            animator.SetBool("Attacked", true);
         }
+
+        return true;
+    }
+
+    public void OnAttackedEnd()
+    {
+        playerMove.enabled = true;
+        animator.SetBool("Attacked", false);
     }
 }

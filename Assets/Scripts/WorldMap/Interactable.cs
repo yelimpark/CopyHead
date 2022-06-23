@@ -13,10 +13,10 @@ public class Interactable : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            int isFilped = other.GetComponent<PlayerWorldMapMove>().IsFliped;
+            float playerScaleX = other.transform.localScale.x;
             active = true;
             iTween.ScaleTo(speechBubble, iTween.Hash(
-                "scale", new Vector3(isFilped, 1f, 1f),
+                "scale", new Vector3(playerScaleX, 1f, 1f),
                 "time", TransitionTime,
                 "easetype", iTween.EaseType.easeInQuart
             ));

@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class SalSpudderAttack : AttackPlayer
 {
-    private Vector3 InitialPos;
     public float speed;
     private Animator animator;
 
@@ -12,24 +11,25 @@ public class SalSpudderAttack : AttackPlayer
     {
         animator = GetComponent<Animator>();
         IsDestroyable = true;
-        InitialPos = transform.position;
     }
 
     private void OnEnable()
     {
         iTween.MoveTo(gameObject, iTween.Hash(
-            "position", InitialPos,
-            "speed", speed
+            "x", -10f,
+            "speed", speed,
+            "oncomplete", "Deactive"
         ));
     }
 
     public override void HandleDestroy()
     {
         animator.SetTrigger("destroy");
+        iTween.Stop(gameObject);
     }
 
-    public void OnDestroyAnimationEnd()
+    public void Deactive()
     {
-        Destroy(gameObject);
+        gameObject.SetActive(false);
     }
 }

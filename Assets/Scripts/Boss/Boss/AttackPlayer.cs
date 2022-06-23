@@ -25,7 +25,8 @@ public class AttackPlayer : MonoBehaviour
                 return;
 
             BossSceneAttackablePlayer player =  other.GetComponent<BossSceneAttackablePlayer>();
-            player.OnHitted();
+            if (!player.OnHitted())
+                return;
 
             if (IsDestroyable)
                 HandleDestroy();
