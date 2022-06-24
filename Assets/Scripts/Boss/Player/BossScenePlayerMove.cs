@@ -87,8 +87,8 @@ public class BossScenePlayerMove : MonoBehaviour
             animator.SetBool("Duckable", true);
         }
 
-        SetAnimationDir("Horizontal", horizontalInput);
-        SetAnimationDir("Vertical", v);
+        animator.SetInteger("Horizontal", Utils.GetIntAxis(horizontalInput));
+        animator.SetInteger("Vertical", Utils.GetIntAxis(v));
     }
 
     void FixedUpdate()
@@ -152,21 +152,5 @@ public class BossScenePlayerMove : MonoBehaviour
     {
         rb.gravityScale = 7;
         animator.SetBool("Shift", false);
-    }
-
-    private void SetAnimationDir(string axisName, float axis)
-    {
-        if (axis > 0)
-        {
-            animator.SetInteger(axisName, 1);
-        }
-        else if (axis == 0)
-        {
-            animator.SetInteger(axisName, 0);
-        }
-        else if (axis < 0)
-        {
-            animator.SetInteger(axisName, -1);
-        }
     }
 }

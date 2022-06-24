@@ -1,0 +1,2334 @@
+fileFormatVersion: 2
+guid: 338da3a299f82d74caf4760888e34890
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MDHR Logo_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 11044
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fcb0e1519faaec40bf8de3e0e0ca467
+      internalID: 998356781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MDHR Logo_1
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 11044
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0d8beba7df01ff48919a6753254e3f1
+      internalID: 1538551747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MDHR Logo_2
+      rect:
+        serializedVersion: 2
+        x: 2063
+        y: 11044
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87efdab297da0864892edcd69406a42a
+      internalID: -23735112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MDHR Logo_3
+      rect:
+        serializedVersion: 2
+        x: 3092
+        y: 11044
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ace41654fc1b22f4ea3e7f45710cee6e
+      internalID: -922783284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MDHR Logo_4
+      rect:
+        serializedVersion: 2
+        x: 4121
+        y: 11044
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71cf823bedec06248a01306b54bf691b
+      internalID: -357801536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MDHR Logo_5
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 10463
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cf80fbefebf0ca4f83033d574ac8c6d
+      internalID: 1742609723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MDHR Logo_6
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 10463
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2ad4f527f2ef40498de9ef692c6f0a2
+      internalID: 1850744017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MDHR Logo_7
+      rect:
+        serializedVersion: 2
+        x: 2063
+        y: 10463
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89e293f094d3a4c4da8ad699147ca9af
+      internalID: 1944398481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MDHR Logo_8
+      rect:
+        serializedVersion: 2
+        x: 3092
+        y: 10463
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 787dc756863482c489098aa34e65f9d3
+      internalID: -1935748825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MDHR Logo_9
+      rect:
+        serializedVersion: 2
+        x: 4121
+        y: 10463
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a792149134c86da4290a4dd8731ab795
+      internalID: 1118847316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MDHR Logo_10
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 9882
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0ea1f56f2814f74abfdbfb90008c842
+      internalID: 1396938697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MDHR Logo_11
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 9882
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46c37eb2d01ca0a4cbc76e0220c7551d
+      internalID: 1577172903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MDHR Logo_12
+      rect:
+        serializedVersion: 2
+        x: 2063
+        y: 9882
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25e4792f40e2f744abf5cdaeecacefe2
+      internalID: -1535698894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MDHR Logo_13
+      rect:
+        serializedVersion: 2
+        x: 3092
+        y: 9882
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0285cee2aa1f2be40903a1f28ce0cac1
+      internalID: 678160418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MDHR Logo_14
+      rect:
+        serializedVersion: 2
+        x: 4121
+        y: 9882
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34582fa567bcf5a4583871b684141c2b
+      internalID: -815964880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MDHR Logo_15
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 9301
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99a407799e7ee6a41918075a965bafa0
+      internalID: -543233632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MDHR Logo_16
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 9301
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d47a3fa8e0f4a640a15bfbeb6e74f30
+      internalID: 1483072106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MDHR Logo_17
+      rect:
+        serializedVersion: 2
+        x: 2063
+        y: 9301
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d5250fc78e67ba4eb678449d0044a83
+      internalID: -1841008028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MDHR Logo_18
+      rect:
+        serializedVersion: 2
+        x: 3092
+        y: 9301
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2fb2f571194c0b449953b43a607a6c7
+      internalID: -1027760084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MDHR Logo_19
+      rect:
+        serializedVersion: 2
+        x: 4121
+        y: 9301
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9935ffeca076df442b17528fe2581446
+      internalID: -1234428205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MDHR Logo_20
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 8720
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c25b2a212fd0ed44a31413f317606a2
+      internalID: -348580147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MDHR Logo_21
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 8720
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e14cf4ea25d0ed4a9d6fb99cf512a4d
+      internalID: -56271716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MDHR Logo_22
+      rect:
+        serializedVersion: 2
+        x: 2063
+        y: 8720
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6db10e0a98edcbc4b8176a3885bad914
+      internalID: 367679672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MDHR Logo_23
+      rect:
+        serializedVersion: 2
+        x: 3092
+        y: 8720
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80c43631e8b986f4aa3b6fffaaaa89ce
+      internalID: -708721506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MDHR Logo_24
+      rect:
+        serializedVersion: 2
+        x: 4121
+        y: 8720
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acb941d02bf1f9c4fa5c152d29091214
+      internalID: -359602175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MDHR Logo_25
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 8139
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dc4c1d333dd0ff459eb608142e5835f
+      internalID: -349536245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MDHR Logo_26
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 8139
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e72acdf4ffb19c43b955aad8f7714fe
+      internalID: -1028350996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MDHR Logo_27
+      rect:
+        serializedVersion: 2
+        x: 2063
+        y: 8139
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 206c0ca4d853a5f4ab95db6b7a172227
+      internalID: 1186294394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MDHR Logo_28
+      rect:
+        serializedVersion: 2
+        x: 3092
+        y: 8139
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56a0c1d2b0873ee4b9205ab91fe15de4
+      internalID: 2052439444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MDHR Logo_29
+      rect:
+        serializedVersion: 2
+        x: 4121
+        y: 8139
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa387d7dbfacf68418a25760d9cd9642
+      internalID: 849087992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MDHR Logo_30
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 7558
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 851f48c0dfc1b564a84d1ec9cf36745f
+      internalID: 817722931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MDHR Logo_31
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 7558
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 734d0fab7b51ede4c92e5f0162e58f05
+      internalID: -1138466250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MDHR Logo_32
+      rect:
+        serializedVersion: 2
+        x: 2063
+        y: 7558
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1064b424662ab434bafa1f322b2b8b87
+      internalID: -1912163514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MDHR Logo_33
+      rect:
+        serializedVersion: 2
+        x: 3092
+        y: 7558
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a52bdd17f8bfaa4092b3ad36c1caf8b
+      internalID: -1148956636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MDHR Logo_34
+      rect:
+        serializedVersion: 2
+        x: 4121
+        y: 7558
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cc56079018e52b49baaac06d0148d36
+      internalID: -686106178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MDHR Logo_35
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 6977
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5619147f11e120f4f9fa5c79ff7d15c3
+      internalID: -1095690276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MDHR Logo_36
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 6977
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cea5094d932c4604bb269b559aa9cd25
+      internalID: 23493467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MDHR Logo_37
+      rect:
+        serializedVersion: 2
+        x: 2063
+        y: 6977
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bae71e2fb13c234184b7ea25445abd7
+      internalID: -2019262369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MDHR Logo_38
+      rect:
+        serializedVersion: 2
+        x: 3092
+        y: 6977
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe1d724b6a3c52c42924234b88ca1fef
+      internalID: 1237287231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MDHR Logo_39
+      rect:
+        serializedVersion: 2
+        x: 4121
+        y: 6977
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c518b6a2d5b62ed448885a579e1adaf8
+      internalID: 2027978892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MDHR Logo_40
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 6396
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d3a0972bc82f744f96ef25c5fa22279
+      internalID: 1812904383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MDHR Logo_41
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 6396
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d41ec2419e783241b40073861be52c6
+      internalID: -1752087038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MDHR Logo_42
+      rect:
+        serializedVersion: 2
+        x: 2063
+        y: 6396
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75efbd7e6d2a46e46a3141c5cf2b90db
+      internalID: 600395343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MDHR Logo_43
+      rect:
+        serializedVersion: 2
+        x: 3092
+        y: 6396
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ce8096eabbcb1c4fa35f6ccc63d93e3
+      internalID: -1232423699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MDHR Logo_44
+      rect:
+        serializedVersion: 2
+        x: 4121
+        y: 6396
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5eb582dbb90a81b4ca4f1598b80ce43d
+      internalID: 1953787597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MDHR Logo_45
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 5815
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d22117b23b38a744a6ca8a40f5ded32
+      internalID: 1511779767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MDHR Logo_46
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 5815
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dcc5a0e7599f484189bda782cb6ea9d
+      internalID: 1423379110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MDHR Logo_47
+      rect:
+        serializedVersion: 2
+        x: 2063
+        y: 5815
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bd4c35ce88834e4f8b556fd066b2242
+      internalID: 2136092780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MDHR Logo_48
+      rect:
+        serializedVersion: 2
+        x: 3092
+        y: 5815
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc00dc335b4a37549bf56901a2383c25
+      internalID: 1290715067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MDHR Logo_49
+      rect:
+        serializedVersion: 2
+        x: 4121
+        y: 5815
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef9ef766261da9c47afe407aa37eaef7
+      internalID: -1278436787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MDHR Logo_50
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 5234
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9be75102bfa47045b2edf6ed60566be
+      internalID: -390773035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MDHR Logo_51
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 5234
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 528926a74da6ea745ba13f35f7d7d877
+      internalID: 147681867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MDHR Logo_52
+      rect:
+        serializedVersion: 2
+        x: 2063
+        y: 5234
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4881a03b622e77543aed1486e338dcd8
+      internalID: -1278038389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MDHR Logo_53
+      rect:
+        serializedVersion: 2
+        x: 3092
+        y: 5234
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e77ac5706320ec74e981ed4b976b8179
+      internalID: -1450960305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MDHR Logo_54
+      rect:
+        serializedVersion: 2
+        x: 4121
+        y: 5234
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f72219d117816654cb4c9962722bad8d
+      internalID: 1341449161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MDHR Logo_55
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 4653
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b517f5d9fadffd446bc49b24ae9950e5
+      internalID: -832074140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MDHR Logo_56
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 4653
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05d1a9394d370ff4bb312e10df934f7e
+      internalID: -1879430786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MDHR Logo_57
+      rect:
+        serializedVersion: 2
+        x: 2063
+        y: 4653
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a87128fafbfa774596d1c1d4673daab
+      internalID: -904848585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MDHR Logo_58
+      rect:
+        serializedVersion: 2
+        x: 3092
+        y: 4653
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b932cdf81e61e743b12ffb3daf38082
+      internalID: 1274608296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MDHR Logo_59
+      rect:
+        serializedVersion: 2
+        x: 4121
+        y: 4653
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c9d5240066e844488b62fb7e6ea0bc1
+      internalID: -846586715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MDHR Logo_60
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 4072
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0c66cd468a232d4b9368a24eafc12d3
+      internalID: 682312129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MDHR Logo_61
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 4072
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eeecd7e346511bd48a8b2cb13c923780
+      internalID: -1332946887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MDHR Logo_62
+      rect:
+        serializedVersion: 2
+        x: 2063
+        y: 4072
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd974a40ba8516c4bbce02cde0b8559c
+      internalID: -795953005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MDHR Logo_63
+      rect:
+        serializedVersion: 2
+        x: 3092
+        y: 4072
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f551b0779c41eab4fb6ed007860472f8
+      internalID: -789757599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MDHR Logo_64
+      rect:
+        serializedVersion: 2
+        x: 4121
+        y: 4072
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 063ddcf958585a04f9075cbe00e9fb68
+      internalID: 1801339942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MDHR Logo_65
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 3491
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d1748191a8891b439c4961f8430208d
+      internalID: -1215315242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MDHR Logo_66
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 3491
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9eb0d73e278740541accd9b0921311b5
+      internalID: 1787474747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MDHR Logo_67
+      rect:
+        serializedVersion: 2
+        x: 2063
+        y: 3491
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f77a2d2844260f46899ead23ddde380
+      internalID: -605473375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MDHR Logo_68
+      rect:
+        serializedVersion: 2
+        x: 3092
+        y: 3491
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72a04a81a0ae5f24eba62a259fa7c295
+      internalID: 77884126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MDHR Logo_69
+      rect:
+        serializedVersion: 2
+        x: 4121
+        y: 3491
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6aa0afc733c2b8459d31b10116fa0ac
+      internalID: 643798473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MDHR Logo_70
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 2910
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 711d744ce4b158a4cb034612e7f23a50
+      internalID: 984338951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MDHR Logo_71
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 2910
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 502d52b05232d3d4da1abf1157425833
+      internalID: -267608560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MDHR Logo_72
+      rect:
+        serializedVersion: 2
+        x: 2063
+        y: 2910
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3969ca12138386b42be5dff20bc6d09e
+      internalID: -1227039428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MDHR Logo_73
+      rect:
+        serializedVersion: 2
+        x: 3092
+        y: 2910
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0ccfb18bf5c63748a7963a30e53c5ab
+      internalID: 959862729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MDHR Logo_74
+      rect:
+        serializedVersion: 2
+        x: 4121
+        y: 2910
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c58ac800543dd1843b4e31bdc8596811
+      internalID: -1385787614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MDHR Logo_75
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 2329
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2da2ca471bc4cae49ab69ddc271ea9ed
+      internalID: -1654805364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MDHR Logo_76
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 2329
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e02932f8ac4296b46b97ae2345583a85
+      internalID: -1075940122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MDHR Logo_77
+      rect:
+        serializedVersion: 2
+        x: 2063
+        y: 2329
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 468f4c093072483469dc2be4c98861cb
+      internalID: -2062039035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MDHR Logo_78
+      rect:
+        serializedVersion: 2
+        x: 3092
+        y: 2329
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 536472ffd8b1bf54fb00e6c10bd1bdaa
+      internalID: 1985959079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MDHR Logo_79
+      rect:
+        serializedVersion: 2
+        x: 4121
+        y: 2329
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b022fdbb773bc1d459c1d090df2764de
+      internalID: -1937628588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MDHR Logo_80
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 1748
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6097730fe27ee5c409e2deffa3853630
+      internalID: 1006219402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MDHR Logo_81
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 1748
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30f23ad27fc9bbb42afe5bdc5881c86f
+      internalID: 1496039567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MDHR Logo_82
+      rect:
+        serializedVersion: 2
+        x: 2063
+        y: 1748
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 201678ec824ca6242ac00aca0f2e3bb3
+      internalID: -384567816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MDHR Logo_83
+      rect:
+        serializedVersion: 2
+        x: 3092
+        y: 1748
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2ac9df1353b4364c94a40bab62302e4
+      internalID: 1209992349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MDHR Logo_84
+      rect:
+        serializedVersion: 2
+        x: 4121
+        y: 1748
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65cd89fcacbd8064f9744be720d744d4
+      internalID: 1357796573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MDHR Logo_85
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 1167
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ebf16f270b6f3444a02a842edad083e
+      internalID: -1601786084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MDHR Logo_86
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 1167
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e64da7bafc54d147bc103f6601560ca
+      internalID: 51679911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MDHR Logo_87
+      rect:
+        serializedVersion: 2
+        x: 2063
+        y: 1167
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01a59d7707bf5de4f97e1ca8b3336c8f
+      internalID: 1158791432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MDHR Logo_88
+      rect:
+        serializedVersion: 2
+        x: 3092
+        y: 1167
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c28b14ba2d5f9a842943aecd2288d0d2
+      internalID: 303242902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MDHR Logo_89
+      rect:
+        serializedVersion: 2
+        x: 4121
+        y: 1167
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b67677c49c5ca24896873ae90b72a8c
+      internalID: -2018198763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MDHR Logo_90
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 586
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de994008d211c8745b53ec2e2ee9d183
+      internalID: 1522114575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MDHR Logo_91
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 586
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8de84286184b9b249a0fb3867807b89a
+      internalID: -1548697317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MDHR Logo_92
+      rect:
+        serializedVersion: 2
+        x: 2063
+        y: 586
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f927f3f855653f40b13730ae8ead572
+      internalID: -176071864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MDHR Logo_93
+      rect:
+        serializedVersion: 2
+        x: 3092
+        y: 586
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72fa1eeef72efa148a73ee58ab119f17
+      internalID: 1375709270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MDHR Logo_94
+      rect:
+        serializedVersion: 2
+        x: 4121
+        y: 586
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b18136cae3b5a8e4ca5f8061a5fc2c32
+      internalID: 573418647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MDHR Logo_95
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 5
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47ff48a9621d87042923aa9a23dcb7c2
+      internalID: -131465830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MDHR Logo_96
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 5
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca2d25008d258de4787d60f517c564d3
+      internalID: 2082649478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MDHR Logo_97
+      rect:
+        serializedVersion: 2
+        x: 2063
+        y: 5
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13ef3eef49ef0b34ba28f65e9a608229
+      internalID: 954349775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MDHR Logo_98
+      rect:
+        serializedVersion: 2
+        x: 3092
+        y: 5
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f764b33f1cacaa46b7ed463a7d9ff14
+      internalID: 1017378475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MDHR Logo_99
+      rect:
+        serializedVersion: 2
+        x: 4121
+        y: 5
+        width: 1024
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a94d96f46d16aca40b63b5695a56f3b3
+      internalID: -971063791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      MDHR Logo_39: 2027978892
+      MDHR Logo_63: -789757599
+      MDHR Logo_5: 1742609723
+      MDHR Logo_84: 1357796573
+      MDHR Logo_75: -1654805364
+      MDHR Logo_44: 1953787597
+      MDHR Logo_19: -1234428205
+      MDHR Logo_73: 959862729
+      MDHR Logo_27: 1186294394
+      MDHR Logo_2: -23735112
+      MDHR Logo_57: -904848585
+      MDHR Logo_95: -131465830
+      MDHR Logo_82: -384567816
+      MDHR Logo_10: 1396938697
+      MDHR Logo_28: 2052439444
+      MDHR Logo_42: 600395343
+      MDHR Logo_31: -1138466250
+      MDHR Logo_46: 1423379110
+      MDHR Logo_69: 643798473
+      MDHR Logo_62: -795953005
+      MDHR Logo_60: 682312129
+      MDHR Logo_76: -1075940122
+      MDHR Logo_13: 678160418
+      MDHR Logo_89: -2018198763
+      MDHR Logo_56: -1879430786
+      MDHR Logo_12: -1535698894
+      MDHR Logo_48: 1290715067
+      MDHR Logo_16: 1483072106
+      MDHR Logo_55: -832074140
+      MDHR Logo_52: -1278038389
+      MDHR Logo_77: -2062039035
+      MDHR Logo_40: 1812904383
+      MDHR Logo_17: -1841008028
+      MDHR Logo_65: -1215315242
+      MDHR Logo_3: -922783284
+      MDHR Logo_1: 1538551747
+      MDHR Logo_54: 1341449161
+      MDHR Logo_86: 51679911
+      MDHR Logo_14: -815964880
+      MDHR Logo_33: -1148956636
+      MDHR Logo_15: -543233632
+      MDHR Logo_43: -1232423699
+      MDHR Logo_38: 1237287231
+      MDHR Logo_11: 1577172903
+      MDHR Logo_18: -1027760084
+      MDHR Logo_9: 1118847316
+      MDHR Logo_23: -708721506
+      MDHR Logo_47: 2136092780
+      MDHR Logo_59: -846586715
+      MDHR Logo_90: 1522114575
+      MDHR Logo_91: -1548697317
+      MDHR Logo_45: 1511779767
+      MDHR Logo_78: 1985959079
+      MDHR Logo_51: 147681867
+      MDHR Logo_49: -1278436787
+      MDHR Logo_0: 998356781
+      MDHR Logo_35: -1095690276
+      MDHR Logo_34: -686106178
+      MDHR Logo_4: -357801536
+      MDHR Logo_64: 1801339942
+      MDHR Logo_50: -390773035
+      MDHR Logo_20: -348580147
+      MDHR Logo_74: -1385787614
+      MDHR Logo_53: -1450960305
+      MDHR Logo_94: 573418647
+      MDHR Logo_67: -605473375
+      MDHR Logo_66: 1787474747
+      MDHR Logo_83: 1209992349
+      MDHR Logo_99: -971063791
+      MDHR Logo_22: 367679672
+      MDHR Logo_6: 1850744017
+      MDHR Logo_36: 23493467
+      MDHR Logo_41: -1752087038
+      MDHR Logo_29: 849087992
+      MDHR Logo_70: 984338951
+      MDHR Logo_81: 1496039567
+      MDHR Logo_79: -1937628588
+      MDHR Logo_92: -176071864
+      MDHR Logo_93: 1375709270
+      MDHR Logo_26: -1028350996
+      MDHR Logo_68: 77884126
+      MDHR Logo_7: 1944398481
+      MDHR Logo_37: -2019262369
+      MDHR Logo_72: -1227039428
+      MDHR Logo_88: 303242902
+      MDHR Logo_25: -349536245
+      MDHR Logo_97: 954349775
+      MDHR Logo_96: 2082649478
+      MDHR Logo_98: 1017378475
+      MDHR Logo_80: 1006219402
+      MDHR Logo_24: -359602175
+      MDHR Logo_71: -267608560
+      MDHR Logo_87: 1158791432
+      MDHR Logo_61: -1332946887
+      MDHR Logo_21: -56271716
+      MDHR Logo_58: 1274608296
+      MDHR Logo_32: -1912163514
+      MDHR Logo_85: -1601786084
+      MDHR Logo_30: 817722931
+      MDHR Logo_8: -1935748825
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

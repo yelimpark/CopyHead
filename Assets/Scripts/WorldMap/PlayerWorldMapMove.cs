@@ -9,22 +9,6 @@ public class PlayerWorldMapMove : MonoBehaviour
     public float speed = 1f;
     private Animator animator;
 
-    private void SetAnimationDir(string axisName, float axis)
-    {
-        if (axis > 0)
-        {
-            animator.SetInteger(axisName, 1);
-        }
-        else if (axis == 0)
-        {
-            animator.SetInteger(axisName, 0);
-        }
-        else if (axis < 0)
-        {
-            animator.SetInteger(axisName, -1);
-        }
-    }
-
     private void Start()
     {
         animator = GetComponent<Animator>();
@@ -44,8 +28,8 @@ public class PlayerWorldMapMove : MonoBehaviour
         // animation
         animator.SetBool("Walk", h != 0 || v != 0);
 
-        SetAnimationDir("Horizontal", h);
-        SetAnimationDir("Vertical", v);
+        animator.SetInteger("Horizontal", Utils.GetIntAxis(h));
+        animator.SetInteger("Vertical", Utils.GetIntAxis(v));
 
         float scaleX = transform.localScale.x;
         if (h * scaleX < 0)

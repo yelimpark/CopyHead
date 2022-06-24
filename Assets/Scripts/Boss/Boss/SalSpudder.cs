@@ -10,7 +10,6 @@ public class SalSpudder : AttackPlayer
         IDLE,
         ATTACK,
         HOLD,
-        DEATH
     }
 
     private State curState;
@@ -27,10 +26,16 @@ public class SalSpudder : AttackPlayer
 
                 case State.ATTACK:
                     if (curState == State.HOLD)
-                        animator.Play("SalSpudder_Attack", -1 ,0f);
+                    {
+                        animator.Play("SalSpudder_Attack", -1, 0f);
+                        //animator.speed *= attackSpeed[attackSpeedIdx];
+                    }
 
                     else if (curState == State.IDLE)
                         animator.SetBool("Attack", true);
+                    break;
+
+                default:
                     break;
             }
 

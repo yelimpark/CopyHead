@@ -371,10 +371,10 @@ TextureImporter:
       name: Peashooter_9
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1822
-        width: 80
-        height: 68
+        x: 1
+        y: 1823
+        width: 77
+        height: 66
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -392,10 +392,10 @@ TextureImporter:
       name: Peashooter_10
       rect:
         serializedVersion: 2
-        x: 85
+        x: 86
         y: 1803
-        width: 93
-        height: 87
+        width: 90
+        height: 86
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -413,10 +413,10 @@ TextureImporter:
       name: Peashooter_11
       rect:
         serializedVersion: 2
-        x: 183
-        y: 1727
-        width: 165
-        height: 163
+        x: 184
+        y: 1729
+        width: 163
+        height: 160
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -434,10 +434,10 @@ TextureImporter:
       name: Peashooter_12
       rect:
         serializedVersion: 2
-        x: 353
-        y: 1650
-        width: 232
-        height: 240
+        x: 355
+        y: 1652
+        width: 228
+        height: 237
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -455,10 +455,10 @@ TextureImporter:
       name: Peashooter_13
       rect:
         serializedVersion: 2
-        x: 590
-        y: 1620
-        width: 256
-        height: 270
+        x: 592
+        y: 1622
+        width: 252
+        height: 265
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -476,10 +476,10 @@ TextureImporter:
       name: Peashooter_14
       rect:
         serializedVersion: 2
-        x: 852
-        y: 1612
-        width: 259
-        height: 278
+        x: 854
+        y: 1616
+        width: 254
+        height: 272
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}

@@ -9,9 +9,13 @@ public class BossScenePlayerAttack : MonoBehaviour
     public float spawnInterval = 0.7f;
     float timer = 0f;
 
+    public GameObject spawnPoint;
+
     public GameObject bulletPrefab;
-    GameObject[] bullets = new GameObject[25];
+    GameObject[] bullets = new GameObject[15];
     int idx = 0;
+
+    public float bulletYDistance = 0.2f;
 
     void Start()
     {
@@ -24,30 +28,34 @@ public class BossScenePlayerAttack : MonoBehaviour
         timer = spawnInterval;
     }
 
-    void Update()
+    void LateUpdate()
     {
+        var currentAnimation = animator.GetCurrentAnimatorStateInfo(0);
+        if (currentAnimation.IsName("cuphead_Duck"))
+        {
+            return;
+        }
+
         timer = Mathf.Min(timer + Time.deltaTime, spawnInterval);
 
-        if (animator.GetBool("X") && timer == spawnInterval)
+        if (animator.GetBool("X") && timer == spawnInterval && animator)
         {
             timer = 0f;
-            bullets[idx].transform.position = transform.position;
-            
-            var h = Input.GetAxis("Horizontal");
+
+            var h = Input.GetAxisRaw("Horizontal");
             var v = Input.GetAxisRaw("Vertical");
-            Vector3 dir = new Vector3(h, v, 0f);
-            dir.Normalize();
 
-            var look = new Vector3(0f, 0f, Vector3.Angle(dir, Vector3.right));
-            bullets[idx].transform.rotation = Quaternion.Euler(look);
+            Vector3 pos = spawnPoint.transform.position;
+            
+            pos.y += (idx % 2 == 0 && v == 0) ? bulletYDistance : 0;
+            pos.x += (idx % 2 == 0 && h == 0) ? bulletYDistance : 0;
 
-            iTween.MoveTo(bullets[idx], iTween.Hash(
-                "position", dir * 100,
-                "speed", 3f
-            ));
-
+            if (h == 0)
+                pos.x += (transform.localScale.x > 0) ? 0.1f : -0.3f;
+            
+            bullets[idx].transform.position = pos;
             bullets[idx].SetActive(true);
-            idx++;
+            idx = (idx == bullets.Length - 1)? 0 : idx + 1;
         }
     }
 }
