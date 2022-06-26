@@ -20,4 +20,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Ttile.unity
     guid: d130b5d80dde0dc479bbbed90cf3ff2d
+  - enabled: 1
+    path: Assets/Scenes/Loading.unity
+    guid: 8790eea809261da48b0b22f58b0703c1
+  - enabled: 1
+    path: Assets/Scenes/Tutorial.unity
+    guid: 0d2ffe169449a7f44a0f73aca4f29b65
+  - enabled: 1
+    path: Assets/Scenes/House.unity
+    guid: 1ac1294d38eb15c48894f5b4c67d8f03
   m_configObjects: {}

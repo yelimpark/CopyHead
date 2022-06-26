@@ -4,37 +4,20 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-public class BossStageUIController : MonoBehaviour
+public class BossStageUIController : UICard
 {
     public GameObject[] difficulties = new GameObject[2];
     int CurDifficulty = 1;
-
-    public GameObject card;
-    public float TransitionTime = 1f;
-
-    CanvasGroup canvasGroup;
-
-    public PlayerWorldMapMove player;
 
     public Image cardText;
 
     [System.NonSerialized]
     public BuildingDefinition def;
 
-    private void Awake()
+    public override void OnEnable()
     {
-        canvasGroup = GetComponent<CanvasGroup>();
-    }
+        base.OnEnable();
 
-    private void OnEnable()
-    {
-        player.enabled = false;
-        iTween.ScaleTo(card, iTween.Hash(
-            "scale", Vector3.one,
-            "time", TransitionTime,
-            "easetype", iTween.EaseType.easeOutBack
-        ));
-        StartCoroutine(Fade.CoFadeIn(canvasGroup, TransitionTime));
         if (def != null)
             cardText.sprite = def.cardTextSprite;
     }
@@ -46,14 +29,11 @@ public class BossStageUIController : MonoBehaviour
         difficulties[CurDifficulty].SetActive(true);
     }
 
-    void Update()
+    public override void Update()
     {
-        if (canvasGroup.alpha < 1) return;
+        base.Update();
 
-        if (Input.GetKeyDown(KeyCode.Escape))
-        {
-            StartCoroutine(Fade.CoFadeOut(canvasGroup, TransitionTime * 0.5f));
-        }
+        if (canvasGroup.alpha < 1) return;
 
         if (Input.GetKeyDown(KeyCode.LeftArrow) && CurDifficulty > 0)
         {
@@ -67,14 +47,9 @@ public class BossStageUIController : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Z))
         {
-            SceneManager.LoadScene(def.bossSceneName);
+            Loading.nextSceneName = def.bossSceneName;
+            iris.nextSceneName = "Loading";
+            iris.gameObject.SetActive(true);
         }
-    }
-
-    private void OnDisable()
-    {
-        card.transform.localScale = Vector3.zero;
-        if (player != null)
-            player.enabled = true;
     }
 }

@@ -11,19 +11,16 @@ public class NPC : Interactable
 
     void Update()
     {
-        if (active && Input.GetKeyDown(KeyCode.Z))
+        if (Active && Input.GetKeyDown(KeyCode.Z))
         {
+            Active = false;
             talk.SetActive(true);
             npcUI.SetActive(true);
             Camera.main.GetComponent<FollowTarget>().enabled = false;
             iTween.MoveTo(Camera.main.gameObject, iTween.Hash(
-                "position", new Vector3(3.4f, 0f, -6.2f),
+                "x", transform.position.x,
+                "y", transform.position.y,
                 "speed", cameraMovingSpeed
-            ));
-            iTween.ScaleTo(speechBubble, iTween.Hash(
-                "scale", Vector3.zero,
-                "time", TransitionTime,
-                "easetype", iTween.EaseType.easeInQuart
             ));
         }
     }

@@ -15,6 +15,7 @@ public class BossScenePlayerMove : MonoBehaviour
     KeyState jumpKeystate = KeyState.NONE;
     float horizontalInput = 0;
     bool dashInput = false;
+    bool onPlatform = false;
 
     Animator animator;
     Rigidbody2D rb;
@@ -40,10 +41,13 @@ public class BossScenePlayerMove : MonoBehaviour
 
         if (horizontalInput * transform.localScale.x < 0)
         {
-            transform.localScale = new Vector3(transform.localScale.x * (-1), 1, 1);
+            Vector3 scale = transform.localScale;
+            scale.x *= -1;
+            transform.localScale = scale;
         }
 
-        if (Input.GetKeyDown(KeyCode.Z) && !animator.GetBool("Z"))
+        if (Input.GetKeyDown(KeyCode.Z) && !animator.GetBool("Z") && rb.velocity.y == 0 
+            && !(onPlatform && Input.GetKey(KeyCode.DownArrow)))
         {
             jumpKeystate = KeyState.DOWN;
             //animator.SetBool("Z", true);
@@ -89,6 +93,10 @@ public class BossScenePlayerMove : MonoBehaviour
 
         animator.SetInteger("Horizontal", Utils.GetIntAxis(horizontalInput));
         animator.SetInteger("Vertical", Utils.GetIntAxis(v));
+
+        if (rb.velocity.y == 0f)
+            animator.SetBool("Z", false);
+
     }
 
     void FixedUpdate()
@@ -138,6 +146,11 @@ public class BossScenePlayerMove : MonoBehaviour
         {
             animator.SetBool("Z", false);
         }
+        else if (collision.gameObject.CompareTag("Platform") && rb.velocity.y == 0)
+        {
+            animator.SetBool("Z", false);
+            onPlatform = true;
+        }
     }
 
     private void OnCollisionExit2D(Collision2D collision)
@@ -145,6 +158,12 @@ public class BossScenePlayerMove : MonoBehaviour
         if (collision.gameObject.CompareTag("Ground"))
         {
             animator.SetBool("Z", true);
+        }
+        else if (collision.gameObject.CompareTag("Platform"))
+        {
+            animator.SetBool("Z", true);
+            //collision.collider.enabled = true;
+            onPlatform = false;
         }
     }
 

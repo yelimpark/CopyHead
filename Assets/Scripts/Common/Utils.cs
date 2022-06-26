@@ -17,4 +17,9 @@ public class Utils : MonoBehaviour
 
         return 0;
     }
+
+    public static void LocateUIAtPos(GameObject pos, GameObject uiObj)
+    {
+        uiObj.transform.position = Camera.main.WorldToScreenPoint(pos.transform.position);
+    }
 }

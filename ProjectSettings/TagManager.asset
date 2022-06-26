@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Ground
   - Enemy
+  - Platform
   layers:
   - Default
   - TransparentFX
@@ -42,4 +43,10 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: SubUI
+    uniqueID: 1730962251
+    locked: 0
+  - name: Player
+    uniqueID: 3629143305
     locked: 0

@@ -5,32 +5,74 @@ using UnityEngine.SceneManagement;
 
 public class TitleSceneMgr : MonoBehaviour
 {
-    public GameObject LogoCanvas;
-    public GameObject TitleCanvas;
-
-    AsyncOperation asyncLoad;
-
-    void Start()
+    public enum state
     {
-        StartCoroutine(LoadMyAsyncScene());
+        LOGO,
+        TITLE,
+        TRANSITION,
     }
 
-    IEnumerator LoadMyAsyncScene()
+    private state curState = state.LOGO;
+    public state CurState
     {
-        asyncLoad = SceneManager.LoadSceneAsync("MainMenu");
-        asyncLoad.allowSceneActivation = false;
+        get { return curState; }
 
-        while (!asyncLoad.isDone)
+        set
         {
-            yield return null;
+            curState = value;
+            switch(curState)
+            {
+                case state.TITLE:
+                    titleCanvas.SetActive(true);
+                    logoCanvas.SetActive(false);
+                    break;
+
+                case state.TRANSITION:
+                    iris.nextSceneName = "MainMenu";
+                    StopCoroutine(coBlink);
+                    iris.gameObject.SetActive(true);
+                    break;
+
+                default:
+                    break;
+            }
         }
     }
 
-    public void OnLogoAnimEnd()
+    public GameObject logoCanvas;
+    public GameObject titleCanvas;
+
+    public IrisSceneTransition iris;
+    public GameObject text;
+
+    Coroutine coBlink;
+    public float blinkInterval;
+
+    AsyncOperation asyncLoad;
+
+    private void Start()
     {
-        TitleCanvas.SetActive(true);
-        LogoCanvas.SetActive(false);
+        asyncLoad = iris.GetComponent<IrisSceneTransition>().asyncLoad;
     }
 
+    void Update()
+    {
+        if (coBlink == null)
+            coBlink = StartCoroutine(CoBlink());
 
+        if (CurState == state.TITLE && Input.anyKey)
+        {
+            CurState = state.TRANSITION;
+        }
+    }
+
+    IEnumerator CoBlink()
+    {
+        while (true)
+        {
+            yield return new WaitForSeconds(blinkInterval);
+
+            text.SetActive(!text.activeSelf);
+        }
+    }
 }

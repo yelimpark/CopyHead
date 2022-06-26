@@ -18,8 +18,13 @@ public class NpcUIController : MonoBehaviour
         {
             player.enabled = true;
             talk.SetActive(false);
-            Camera.main.GetComponent<FollowTarget>().enabled = true;
             gameObject.SetActive(false);
+
+            var itween = Camera.main.GetComponent<iTween>();
+            if (itween != null)
+                Destroy(itween);
+
+            Camera.main.GetComponent<FollowTarget>().enabled = true;
         }
     }
 }

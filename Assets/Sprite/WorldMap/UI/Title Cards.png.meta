@@ -623,10 +623,10 @@ TextureImporter:
       name: Title Cards_19
       rect:
         serializedVersion: 2
-        x: 2130
-        y: 557
-        width: 403
-        height: 204
+        x: 2072
+        y: 513
+        width: 523
+        height: 284
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

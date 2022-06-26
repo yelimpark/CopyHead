@@ -9,7 +9,7 @@ public class BossStageBuilding : Interactable
 
     private void Update()
     {
-        if (active && Input.GetKeyDown(KeyCode.Z))
+        if (Active && Input.GetKeyDown(KeyCode.Z))
         {
             BossStageUI.GetComponent<BossStageUIController>().def = def;
             BossStageUI.SetActive(true);
