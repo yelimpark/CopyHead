@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class NPC : Interactable
 {
-    public GameObject talk;
-    public GameObject npcUI;
+    public NpcUIController npcUI;
+    public string npcName;
 
     public float cameraMovingSpeed;
 
@@ -14,8 +14,8 @@ public class NPC : Interactable
         if (Active && Input.GetKeyDown(KeyCode.Z))
         {
             Active = false;
-            talk.SetActive(true);
-            npcUI.SetActive(true);
+            npcUI.npc = this;
+            npcUI.gameObject.SetActive(true);
             Camera.main.GetComponent<FollowTarget>().enabled = false;
             iTween.MoveTo(Camera.main.gameObject, iTween.Hash(
                 "x", transform.position.x,

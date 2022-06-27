@@ -5,15 +5,15 @@ using UnityEngine.SceneManagement;
 
 public class House : Interactable
 {
-    public GameObject miniCard;
+    public MiniCardUIController miniCard;
     public MiniCardDefinition def;
 
     void Update()
     {
         if (Active && Input.GetKeyDown(KeyCode.Z))
         {
-            miniCard.GetComponent<MiniCardUIController>().def = def;
-            miniCard.SetActive(true);
+            miniCard.def = def;
+            miniCard.gameObject.SetActive(true);
         }
     }
 }

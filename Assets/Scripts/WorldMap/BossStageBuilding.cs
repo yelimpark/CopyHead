@@ -4,15 +4,15 @@ using UnityEngine;
 
 public class BossStageBuilding : Interactable
 {
-    public GameObject BossStageUI;
+    public BossStageUIController BossStageUI;
     public BuildingDefinition def;
 
     private void Update()
     {
         if (Active && Input.GetKeyDown(KeyCode.Z))
         {
-            BossStageUI.GetComponent<BossStageUIController>().def = def;
-            BossStageUI.SetActive(true);
+            BossStageUI.def = def;
+            BossStageUI.gameObject.SetActive(true);
         }
     }
 }

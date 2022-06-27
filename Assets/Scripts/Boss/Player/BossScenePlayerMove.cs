@@ -57,6 +57,11 @@ public class BossScenePlayerMove : MonoBehaviour
             jumpKeystate = KeyState.UP;
         }
 
+        if (animator.GetBool("Z") && Input.GetKeyDown(KeyCode.Z))
+        {
+            animator.SetBool("IsPerrying", true);
+        }
+
         if (Input.GetKeyDown(KeyCode.LeftShift))
         {
             dashInput = true;
@@ -158,12 +163,18 @@ public class BossScenePlayerMove : MonoBehaviour
         if (collision.gameObject.CompareTag("Ground"))
         {
             animator.SetBool("Z", true);
+
+            //tmp
+            animator.SetBool("IsPerrying", false);
         }
         else if (collision.gameObject.CompareTag("Platform"))
         {
             animator.SetBool("Z", true);
             //collision.collider.enabled = true;
             onPlatform = false;
+
+            //tmp
+            animator.SetBool("IsPerrying", false);
         }
     }
 

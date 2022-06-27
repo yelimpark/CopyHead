@@ -10,10 +10,14 @@ public class DefaultUIController : MonoBehaviour
 
     public Sprite[] numberSprites = new Sprite[10];
 
-    public GameObject equipUI;
+    //public GameObject equipUI;
 
     void Start()
     {
+        OnCoinChange();
+    }
+
+    public void OnCoinChange() {
         int coin = GameVal.Instnace.coin;
 
         int firsrDigit = coin / 10;
@@ -23,11 +27,11 @@ public class DefaultUIController : MonoBehaviour
         coinTextSecond.sprite = numberSprites[secondDigit];
     }
 
-    void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.LeftShift) || Input.GetKeyDown(KeyCode.RightShift))
-        {
-            equipUI.SetActive(true);
-        }
-    }
+    //void Update()
+    //{
+    //    if (Input.GetKeyDown(KeyCode.LeftShift) || Input.GetKeyDown(KeyCode.RightShift))
+    //    {
+    //        //equipUI.SetActive(true);
+    //    }
+    //}
 }

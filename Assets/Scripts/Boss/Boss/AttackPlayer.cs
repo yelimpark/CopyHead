@@ -7,8 +7,16 @@ public class AttackPlayer : MonoBehaviour
     public bool IsPerryable = false;
     public bool IsDestroyable = false;
 
-    public bool HandlePerry()
+    public Animator player;
+
+    public bool HandlePerry(Collider2D other)
     {
+        if (player.GetBool("IsPerrying"))
+        {
+            other.gameObject.SetActive(false);
+            return true;
+        }
+
         return false;
     }
 
@@ -21,7 +29,7 @@ public class AttackPlayer : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            if (IsPerryable && HandlePerry())
+            if (IsPerryable && HandlePerry(other))
                 return;
 
             BossSceneAttackablePlayer player =  other.GetComponent<BossSceneAttackablePlayer>();
