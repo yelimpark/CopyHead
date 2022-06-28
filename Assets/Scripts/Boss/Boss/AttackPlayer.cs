@@ -6,7 +6,7 @@ public class AttackPlayer : MonoBehaviour
 {
     public bool IsDestroyable = false;
 
-    public virtual void HandleDestroy()
+    public virtual void HandleDestroy(Collider2D other)
     {
         Destroy(gameObject);
     }
@@ -18,10 +18,10 @@ public class AttackPlayer : MonoBehaviour
             BossSceneAttackablePlayer player = other.GetComponent<BossSceneAttackablePlayer>();
             if (!player.OnHitted())
                 return;
-
-            if (IsDestroyable)
-                HandleDestroy();
         }
+
+        if (IsDestroyable)
+            HandleDestroy(other);
     }
 
 }

@@ -14,6 +14,12 @@ public class Entrance : Interactable
 
     void Update()
     {
+        if (Active)
+        {
+            Utils.LocateUIAtPos(gameObject, speechBubble);
+            speechBubble.transform.position -= Camera.main.transform.position;
+        }
+
         if (Active && Input.GetKeyDown(KeyCode.Z))
         {
             Active = false;

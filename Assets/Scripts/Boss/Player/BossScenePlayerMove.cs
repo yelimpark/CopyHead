@@ -68,7 +68,6 @@ public class BossScenePlayerMove : MonoBehaviour
         if (animator.GetBool("Z") && Input.GetKeyDown(KeyCode.Z))
         {
             animator.SetBool("IsPerrying", true);
-            Debug.Log(true);
             Del turnOffPerry = delegate { animator.SetBool("IsPerrying", false); };
             StartCoroutine(CoAnimatorTimer(perryTime, turnOffPerry));
         }
@@ -203,7 +202,6 @@ public class BossScenePlayerMove : MonoBehaviour
         yield return new WaitForSeconds(time);
 
         method();
-        Debug.Log(false);
     }
 
 }

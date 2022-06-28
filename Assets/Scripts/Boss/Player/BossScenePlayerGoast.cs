@@ -4,13 +4,15 @@ using UnityEngine;
 
 public class BossScenePlayerGoast : MonoBehaviour
 {
-    public float time = 3f;
+    public float speed = 3f;
 
-    void Start()
+    private void Update()
     {
-        iTween.MoveTo(gameObject, iTween.Hash(
-                "y", 10,
-                "time", time
-        ));
+        transform.position += Vector3.up * speed * Time.deltaTime;
+
+        if (transform.position.y > Camera.main.orthographicSize)
+        {
+            gameObject.SetActive(false);
+        }
     }
 }
