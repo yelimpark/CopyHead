@@ -11,6 +11,7 @@ public enum NpcDataType {
 public class NPCTableElem : DataTableElem
 {
     public string name;
+    public int state;
     public NpcDataType type;
     public string line;
     public string function;
@@ -23,6 +24,7 @@ public class NPCTableElem : DataTableElem
     public override void Init(Dictionary<string, string> data)
     {
         name = data["NAME"];
+        state = int.Parse(data["STATE"]);
         type = (NpcDataType)Enum.Parse(typeof(NpcDataType), data["TYPE"]);
         line = data["LINE"];
         function = data["FUNCTION"];

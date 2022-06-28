@@ -4,21 +4,7 @@ using UnityEngine;
 
 public class AttackPlayer : MonoBehaviour
 {
-    public bool IsPerryable = false;
     public bool IsDestroyable = false;
-
-    public Animator player;
-
-    public bool HandlePerry(Collider2D other)
-    {
-        if (player.GetBool("IsPerrying"))
-        {
-            other.gameObject.SetActive(false);
-            return true;
-        }
-
-        return false;
-    }
 
     public virtual void HandleDestroy()
     {
@@ -29,10 +15,7 @@ public class AttackPlayer : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            if (IsPerryable && HandlePerry(other))
-                return;
-
-            BossSceneAttackablePlayer player =  other.GetComponent<BossSceneAttackablePlayer>();
+            BossSceneAttackablePlayer player = other.GetComponent<BossSceneAttackablePlayer>();
             if (!player.OnHitted())
                 return;
 

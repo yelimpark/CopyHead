@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -19,16 +20,24 @@ public class BossScenePlayerMove : MonoBehaviour
 
     Animator animator;
     Rigidbody2D rb;
+    BoxCollider2D trigerCollider;
 
-    public float jumpPower = 35f;
+    public float jumpPower = 27f;
     public float moveSpeed = 10f;
-    public float dashLength = 3f;
-    public float dashTime = 0.3f;
+    public float dashPower = 20f;
+    public float dashTime = 0.2f;
+    public float perryPower = 20f;
+    public float perryTime = 0.2f;
+
+    public float gravitiyScale = 7f;
+
+    public delegate void Del();
 
     void Start()
     {
         animator = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
+        trigerCollider = GetComponent<BoxCollider2D>();
     }
 
     private void Update()
@@ -46,11 +55,10 @@ public class BossScenePlayerMove : MonoBehaviour
             transform.localScale = scale;
         }
 
-        if (Input.GetKeyDown(KeyCode.Z) && !animator.GetBool("Z") && rb.velocity.y == 0 
+        if (Input.GetKeyDown(KeyCode.Z) && !animator.GetBool("Z")
             && !(onPlatform && Input.GetKey(KeyCode.DownArrow)))
         {
             jumpKeystate = KeyState.DOWN;
-            //animator.SetBool("Z", true);
         }
         if (!Input.GetKey(KeyCode.Z) && jumpKeystate == KeyState.HOLD)
         {
@@ -60,6 +68,9 @@ public class BossScenePlayerMove : MonoBehaviour
         if (animator.GetBool("Z") && Input.GetKeyDown(KeyCode.Z))
         {
             animator.SetBool("IsPerrying", true);
+            Debug.Log(true);
+            Del turnOffPerry = delegate { animator.SetBool("IsPerrying", false); };
+            StartCoroutine(CoAnimatorTimer(perryTime, turnOffPerry));
         }
 
         if (Input.GetKeyDown(KeyCode.LeftShift))
@@ -98,24 +109,16 @@ public class BossScenePlayerMove : MonoBehaviour
 
         animator.SetInteger("Horizontal", Utils.GetIntAxis(horizontalInput));
         animator.SetInteger("Vertical", Utils.GetIntAxis(v));
-
-        if (rb.velocity.y == 0f)
-            animator.SetBool("Z", false);
-
     }
 
     void FixedUpdate()
     {
         if (dashInput)
         {
-            rb.velocity = Vector2.zero;
+            rb.velocity = Vector2.right * transform.localScale.x * dashPower;
             rb.gravityScale = 0;
-            iTween.MoveBy(gameObject, iTween.Hash(
-                "x", dashLength * transform.localScale.x,
-                "time", dashTime,
-                "oncomplete", "OnDashEnd"
-            ));
             dashInput = false;
+            StartCoroutine(CoAnimatorTimer(dashTime, OnDashEnd));
         }
 
         if (animator.GetBool("Shift"))
@@ -140,22 +143,14 @@ public class BossScenePlayerMove : MonoBehaviour
             return;
         }
 
-        velocity += Vector2.right * horizontalInput * moveSpeed;
+        velocity += horizontalInput * moveSpeed * Vector2.right;
 
         rb.velocity = velocity;
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("Ground"))
-        {
-            animator.SetBool("Z", false);
-        }
-        else if (collision.gameObject.CompareTag("Platform") && rb.velocity.y == 0)
-        {
-            animator.SetBool("Z", false);
-            onPlatform = true;
-        }
+        trigerCollider.enabled = true;
     }
 
     private void OnCollisionExit2D(Collision2D collision)
@@ -163,24 +158,52 @@ public class BossScenePlayerMove : MonoBehaviour
         if (collision.gameObject.CompareTag("Ground"))
         {
             animator.SetBool("Z", true);
+            //trigerCollider.enabled = false;
 
-            //tmp
-            animator.SetBool("IsPerrying", false);
         }
         else if (collision.gameObject.CompareTag("Platform"))
         {
             animator.SetBool("Z", true);
-            //collision.collider.enabled = true;
             onPlatform = false;
-
-            //tmp
-            animator.SetBool("IsPerrying", false);
+            //trigerCollider.enabled = false;
         }
     }
 
     public void OnDashEnd()
     {
-        rb.gravityScale = 7;
+        rb.gravityScale = gravitiyScale;
         animator.SetBool("Shift", false);
     }
+
+    public void OnParraing()
+    {
+        Vector2 velocity = rb.velocity;
+        velocity.y = perryPower;
+        rb.velocity = velocity;
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("Ground"))
+        {
+            animator.SetBool("Z", false);
+            animator.SetBool("IsPerrying", false);
+        }
+        else if (collision.gameObject.CompareTag("Platform") && rb.velocity.y == 0)
+        {
+            animator.SetBool("Z", false);
+            onPlatform = true;
+            animator.SetBool("IsPerrying", false);
+        }
+        trigerCollider.enabled = false;
+    }
+
+    IEnumerator CoAnimatorTimer(float time, Del method)
+    {
+        yield return new WaitForSeconds(time);
+
+        method();
+        Debug.Log(false);
+    }
+
 }

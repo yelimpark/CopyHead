@@ -9,7 +9,6 @@ public class BossSceneAttackablePlayer : MonoBehaviour
 
     public int Life { get; private set; }
 
-
     public GameObject goast;
 
     private void Start()
@@ -22,7 +21,6 @@ public class BossSceneAttackablePlayer : MonoBehaviour
 
     public bool OnHitted()
     {
-
         if (animator.GetBool("Shift"))
             return false;
 

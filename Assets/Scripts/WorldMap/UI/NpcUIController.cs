@@ -31,7 +31,7 @@ public class NpcUIController : MonoBehaviour
         player.enabled = false;
         if (npc != null && npcTable != null)
         {   
-            query = npcTable.GetDatas().Where(x => x.Value.name == npc.npcName);
+            query = npcTable.GetDatas().Where(x => x.Value.name == npc.npcName && x.Value.state == npc.stateIdx);
             idx = query.GetEnumerator();
             HandleNPCData();
         }
@@ -41,6 +41,7 @@ public class NpcUIController : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Z))
         {
+            disableEverychild();
             HandleNPCData();
         }
     }
@@ -56,6 +57,7 @@ public class NpcUIController : MonoBehaviour
         switch (idx.Current.Value.type)
         {
             case NpcDataType.L:
+                talk.SetActive(true);
                 line.text = idx.Current.Value.Line;
                 break;
             case NpcDataType.E:
@@ -79,13 +81,19 @@ public class NpcUIController : MonoBehaviour
             Destroy(itween);
 
         Camera.main.GetComponent<FollowTarget>().enabled = true;
+        npc.stateIdx = Mathf.Min(npc.stateIdxMax, npc.stateIdx + 1);
     }
 
     public void GetThreeCoin()
     {
-        talk.SetActive(false);
         coin.SetActive(true);
         GameVal.Instnace.coin += 3;
         defaultUIController.OnCoinChange();
+    }
+
+    public void disableEverychild()
+    {
+        talk.SetActive(false);
+        coin.SetActive(false);
     }
 }

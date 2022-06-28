@@ -5,14 +5,11 @@ using UnityEngine;
 public class Attackable : MonoBehaviour
 {
     public int maxHealth;
-    private int health;
-    public float SinkSpeed;
-    Animator animator;
-    SimpleFlash simpleFlash;
+    protected int health;
+    protected SimpleFlash simpleFlash;
 
-    private void Start()
+    public virtual void Start()
     {
-        animator = GetComponent<Animator>();
         simpleFlash = GetComponent<SimpleFlash>();
         health = maxHealth;
     }
@@ -24,20 +21,11 @@ public class Attackable : MonoBehaviour
 
         if (health <= 0)
         {
-            GetComponent<SalSpudder>().enabled = false;
-            animator.SetTrigger("Die");
-            iTween.MoveTo(gameObject, iTween.Hash(
-                "delay", 2f,
-                "y", -30f,
-                "speed", SinkSpeed,
-                "oncomplete", "Deactive"
-            ));
+            OnDie();
         }
     }
 
-    public void Deactive()
+    public virtual void OnDie()
     {
-        gameObject.SetActive(false);
     }
-
 }

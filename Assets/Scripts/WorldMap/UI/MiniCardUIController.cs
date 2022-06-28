@@ -18,6 +18,7 @@ public class MiniCardUIController : UICard
         if (def != null)
             titleText.text = def.titleStr;
         titleText.text = titleText.text.Replace("\\n", "\n");
+
     }
 
     public override void Update()
