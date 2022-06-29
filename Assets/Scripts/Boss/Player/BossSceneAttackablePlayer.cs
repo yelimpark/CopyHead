@@ -13,6 +13,8 @@ public class BossSceneAttackablePlayer : MonoBehaviour
 
     private void Start()
     {
+        GameManager.Instnace.player = gameObject;
+
         animator = GetComponent<Animator>();
         playerMove = GetComponent<BossScenePlayerMove>();
 

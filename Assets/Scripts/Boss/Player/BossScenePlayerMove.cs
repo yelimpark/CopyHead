@@ -33,7 +33,7 @@ public class BossScenePlayerMove : MonoBehaviour
 
     public delegate void Del();
 
-    void Start()
+    void Awake()
     {
         animator = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
