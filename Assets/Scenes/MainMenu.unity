@@ -292,8 +292,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 30
-  m_fontSizeBase: 30
+  m_fontSize: 36
+  m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -731,8 +731,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 30
-  m_fontSizeBase: 30
+  m_fontSize: 36
+  m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -999,8 +999,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 30
-  m_fontSizeBase: 30
+  m_fontSize: 36
+  m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1101,8 +1101,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 18
-  m_fontSizeBase: 18
+  m_fontSize: 20
+  m_fontSizeBase: 20
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1160,7 +1160,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 371.2, y: -256.7}
+  m_AnchoredPosition: {x: 357.8, y: -255.7}
   m_SizeDelta: {x: 150, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2647805757022696163
@@ -1234,6 +1234,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2647805757954321459}
     m_Modifications:
+    - target: {fileID: 2000886809022164041, guid: 6a50e8b76b1097f41b38f9ecf6380e1f, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 26.35
+      objectReference: {fileID: 0}
+    - target: {fileID: 2000886809022164041, guid: 6a50e8b76b1097f41b38f9ecf6380e1f, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 26.3508
+      objectReference: {fileID: 0}
+    - target: {fileID: 2000886809022164041, guid: 6a50e8b76b1097f41b38f9ecf6380e1f, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 6.4524984
+      objectReference: {fileID: 0}
+    - target: {fileID: 2000886809022164041, guid: 6a50e8b76b1097f41b38f9ecf6380e1f, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -5.8000007
+      objectReference: {fileID: 0}
+    - target: {fileID: 2000886809791778354, guid: 6a50e8b76b1097f41b38f9ecf6380e1f, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -4.3
+      objectReference: {fileID: 0}
     - target: {fileID: 2000886810140873809, guid: 6a50e8b76b1097f41b38f9ecf6380e1f, type: 3}
       propertyPath: m_Name
       value: Z

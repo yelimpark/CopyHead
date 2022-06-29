@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SalSpudder : AttackPlayer
+public class SalSpudder : Boss
 {
     public enum State
     {
@@ -43,27 +43,19 @@ public class SalSpudder : AttackPlayer
         }
     }
 
-    private Animator animator;
-
     public List<float> attackSpeed = new List<float>();
     private int attackSpeedIdx = -1;
     private float attackSpeedtimer = 0f;
 
-    public float attackInterval = 2f;
-    private float attackIntervalTimer = 0f;
-
-    public List<GameObject> Bullets = new List<GameObject>();
-    private int bulletIdx = 0;
-
     public Transform spawnPos;
 
-    void Start()
+    protected override void Start()
     {
-        animator = GetComponent<Animator>();
+        base.Start();
         CurState = State.INTRO;
     }
 
-    public void OnIntroEnd()
+    public override void OnIntroEnd()
     {
         CurState = State.IDLE;
     }

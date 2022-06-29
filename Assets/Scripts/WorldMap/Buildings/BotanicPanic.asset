@@ -14,3 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bossSceneName: BotanicPanic
   cardTextSprite: {fileID: -1416484118, guid: 5ebf6e9e28867574fae3476cd191ceb6, type: 3}
+  pahseNumber: 3

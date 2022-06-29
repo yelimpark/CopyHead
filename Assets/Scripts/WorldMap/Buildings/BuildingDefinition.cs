@@ -7,4 +7,5 @@ public class BuildingDefinition : ScriptableObject
 {
     public string bossSceneName;
     public Sprite cardTextSprite;
+    public int pahseNumber;
 }

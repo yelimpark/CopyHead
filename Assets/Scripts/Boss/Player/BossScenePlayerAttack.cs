@@ -23,6 +23,7 @@ public class BossScenePlayerAttack : MonoBehaviour
         for (int i = 0; i < bullets.Length; i++)
         {
             bullets[i] = Instantiate(bulletPrefab);
+            bullets[i].transform.SetParent(transform, false);
             bullets[i].SetActive(false);
         }
         timer = spawnInterval;

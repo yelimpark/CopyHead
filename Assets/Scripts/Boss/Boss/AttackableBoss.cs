@@ -6,6 +6,7 @@ public class AttackableBoss : Attackable
 {
     public float SinkSpeed;
     protected Animator animator;
+    public GameObject vfxController;
 
     public override void Start()
     {
@@ -15,7 +16,8 @@ public class AttackableBoss : Attackable
 
     public override void OnDie()
     {
-        GetComponent<SalSpudder>().enabled = false;
+        vfxController.SetActive(true);
+        GetComponent<Boss>().enabled = false;
         animator.SetTrigger("Die");
         iTween.MoveTo(gameObject, iTween.Hash(
             "delay", 2f,
