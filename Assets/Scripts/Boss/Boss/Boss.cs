@@ -12,10 +12,14 @@ public class Boss : MonoBehaviour
     public float attackInterval = 2f;
     protected float attackIntervalTimer = 0f;
 
-    protected virtual void Start()
+    protected virtual void Awake()
     {
-        GameManager.Instnace.PhaseBoss.Add(this.gameObject);
         animator = GetComponent<Animator>();
+    }
+
+    public void OnEnable()
+    {
+        
     }
 
     public virtual void OnIntroEnd() { }

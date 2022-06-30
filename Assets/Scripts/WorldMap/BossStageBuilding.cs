@@ -6,6 +6,7 @@ public class BossStageBuilding : Interactable
 {
     public BossStageUIController BossStageUI;
     public BuildingDefinition def;
+    public bool IsConquered = false;
 
     private void Update()
     {

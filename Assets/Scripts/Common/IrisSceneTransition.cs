@@ -13,7 +13,8 @@ public class IrisSceneTransition : MonoBehaviour
 
     public void OnTransitionEnd()
     {
-        asyncLoad.allowSceneActivation = true;
+        if (asyncLoad != null)
+            asyncLoad.allowSceneActivation = true;
     }
 
     IEnumerator LoadMyAsyncScene()

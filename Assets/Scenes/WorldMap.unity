@@ -3737,6 +3737,7 @@ MonoBehaviour:
   TransitionTime: 0.5
   BossStageUI: {fileID: 467399162}
   def: {fileID: 11400000, guid: 3e61afd8d0a39bd40a4ab42ded4e4155, type: 2}
+  IsConquered: 0
 --- !u!1 &1105764785
 GameObject:
   m_ObjectHideFlags: 0

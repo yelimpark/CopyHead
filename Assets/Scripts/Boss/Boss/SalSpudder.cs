@@ -49,9 +49,10 @@ public class SalSpudder : Boss
 
     public Transform spawnPos;
 
-    protected override void Start()
+    protected override void Awake()
     {
-        base.Start();
+        base.Awake();
+        GameManager.Instnace.FirstPhaseBoss = gameObject;
         CurState = State.INTRO;
     }
 

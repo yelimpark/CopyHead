@@ -31,8 +31,6 @@ public class BossScenePlayerMove : MonoBehaviour
 
     public float gravitiyScale = 7f;
 
-    public delegate void Del();
-
     void Awake()
     {
         animator = GetComponent<Animator>();
@@ -68,8 +66,8 @@ public class BossScenePlayerMove : MonoBehaviour
         if (animator.GetBool("Z") && Input.GetKeyDown(KeyCode.Z))
         {
             animator.SetBool("IsPerrying", true);
-            Del turnOffPerry = delegate { animator.SetBool("IsPerrying", false); };
-            StartCoroutine(CoAnimatorTimer(perryTime, turnOffPerry));
+            Utils.Del turnOffPerry = delegate { animator.SetBool("IsPerrying", false); };
+            StartCoroutine(Utils.CoWait(perryTime, turnOffPerry));
         }
 
         if (Input.GetKeyDown(KeyCode.LeftShift))
@@ -117,7 +115,7 @@ public class BossScenePlayerMove : MonoBehaviour
             rb.velocity = Vector2.right * transform.localScale.x * dashPower;
             rb.gravityScale = 0;
             dashInput = false;
-            StartCoroutine(CoAnimatorTimer(dashTime, OnDashEnd));
+            StartCoroutine(Utils.CoWait(dashTime, OnDashEnd));
         }
 
         if (animator.GetBool("Shift"))
@@ -196,12 +194,4 @@ public class BossScenePlayerMove : MonoBehaviour
         }
         trigerCollider.enabled = false;
     }
-
-    IEnumerator CoAnimatorTimer(float time, Del method)
-    {
-        yield return new WaitForSeconds(time);
-
-        method();
-    }
-
 }

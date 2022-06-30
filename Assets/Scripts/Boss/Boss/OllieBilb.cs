@@ -23,7 +23,7 @@ public class OllieBilb : Boss
                 case State.IDLE:
                     for (int i = 0; i < tears.Length; i++)
                     {
-                        tears[i].GetComponent<Animator>().SetTrigger("off");
+                        tears[i].GetComponent<Animator>().SetTrigger("turnOff");
                     }
                     animator.SetBool("Attack", false);
                     break;
@@ -54,9 +54,9 @@ public class OllieBilb : Boss
 
     public GameObject[] tears = new GameObject[2];
 
-    protected override void Start()
+    protected override void Awake()
     {
-        base.Start();
+        base.Awake();
         CurState = State.INTRO;
     }
 
@@ -67,11 +67,6 @@ public class OllieBilb : Boss
 
     void Update()
     {
-        if (animator.GetCurrentAnimatorStateInfo(0).IsName(""))
-        {
-
-        }
-
         switch (CurState)
         {
             case State.IDLE:
@@ -138,6 +133,14 @@ public class OllieBilb : Boss
         {
             attackIntervalTimer = 0f;
             CurState = State.ATTACK;
+        }
+    }
+
+    private void OnDie()
+    {
+        for (int i = 0; i < tears.Length; i++)
+        {
+            tears[i].GetComponent<Animator>().SetTrigger("turnOff");
         }
     }
 }

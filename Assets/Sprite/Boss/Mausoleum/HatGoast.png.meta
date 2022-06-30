@@ -1,0 +1,631 @@
+fileFormatVersion: 2
+guid: 056539a2f56400542bdf648c3abee99a
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: HatGoast_1
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 924
+        width: 129
+        height: 132
+      alignment: 9
+      pivot: {x: 0.5043396, y: 0.23605624}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6980c641e092caa4cafe53deb60db279
+      internalID: 394569127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HatGoast_3
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 838
+        width: 142
+        height: 141
+      alignment: 9
+      pivot: {x: 0.5110001, y: 0.26182133}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e87dd1eb658190a4baaeb5095dfd4650
+      internalID: -304463206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HatGoast_7
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 832
+        width: 144
+        height: 127
+      alignment: 9
+      pivot: {x: 0.51531196, y: 0.22655769}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71c413c44266f0540b9a5aa9b5dbfd68
+      internalID: -1290929140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HatGoast_10
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 717
+        width: 137
+        height: 138
+      alignment: 9
+      pivot: {x: 0.5, y: 0.24215256}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0200122e4ca3df64bb1a1f4c65e1c6dd
+      internalID: 810418229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HatGoast_11
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 731
+        width: 141
+        height: 110
+      alignment: 9
+      pivot: {x: 0.5112484, y: 0.20923463}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47de37ca3b476c7418cdaa381b3182b8
+      internalID: 21691859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HatGoast_15
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 640
+        width: 128
+        height: 111
+      alignment: 9
+      pivot: {x: 0.4909798, y: 0.23302288}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e8b6aae3454ea64e96c4d27dd2c6463
+      internalID: 1306642805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HatGoast_16
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 596
+        width: 141
+        height: 130
+      alignment: 9
+      pivot: {x: 0.5041759, y: 0.20910692}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6b0899b1dd75ec4887da521931ab9b6
+      internalID: -468171025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HatGoast_19
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 412
+        width: 122
+        height: 125
+      alignment: 9
+      pivot: {x: 0.48608428, y: 0.2147815}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a71c94a6e38a8694fab6a10e85265e09
+      internalID: -1225021361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HatGoast_20
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 485
+        width: 144
+        height: 129
+      alignment: 9
+      pivot: {x: 0.5134971, y: 0.22377901}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 062d651b9f2da144ba953c06944a3b41
+      internalID: -2120626721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HatGoast_21
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 393
+        width: 120
+        height: 112
+      alignment: 9
+      pivot: {x: 0.47951788, y: 0.18598093}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f672a135b5f1fd4b85b1b5a64ff7697
+      internalID: -679683580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HatGoast_22
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 276
+        width: 136
+        height: 130
+      alignment: 9
+      pivot: {x: 0.5096669, y: 0.20166203}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e70724d287cf10b4e95adc0b71a8e783
+      internalID: 837542703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HatGoast_23
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 276
+        width: 141
+        height: 138
+      alignment: 9
+      pivot: {x: 0.5371736, y: 0.17715277}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4d5142981b660a4e99f4378697e2c23
+      internalID: 2010136308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HatGoast_26
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 146
+        width: 136
+        height: 124
+      alignment: 9
+      pivot: {x: 0.5438164, y: 0.12240982}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f92f12f83d9a504dba6cb7a90f912e2
+      internalID: -1586437435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HatGoast_27
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 140
+        width: 122
+        height: 125
+      alignment: 9
+      pivot: {x: 0.50332344, y: 0.20484766}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54be2b9c8a156204297680fed8c93b26
+      internalID: 1533773782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HatGoast_30
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 150
+        height: 143
+      alignment: 9
+      pivot: {x: 0.5214955, y: 0.28454387}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24a4ae99c02ee5248ace64667d0a8bb0
+      internalID: 205687977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HatGoast_31
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 0
+        width: 146
+        height: 115
+      alignment: 9
+      pivot: {x: 0.5238518, y: 0.20146613}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e72a8c602faf2049955d56f7bd27f8c
+      internalID: -529548844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HatGoast_32
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 0
+        width: 134
+        height: 131
+      alignment: 9
+      pivot: {x: 0.5193973, y: 0.22221665}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72c49b60227c31e46aa8e50c99b9ab47
+      internalID: -750715810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HatGoast_33
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 0
+        width: 129
+        height: 131
+      alignment: 9
+      pivot: {x: 0.4769027, y: 0.197823}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b52a83d324d6064fbb0fd22e9f1496d
+      internalID: 106957115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HatGoast_0
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 497
+        width: 128
+        height: 123
+      alignment: 9
+      pivot: {x: 0.5391848, y: 0.19125688}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88092adfb24b8fe40952f058d43a1db9
+      internalID: 1010267974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HatGoast_2
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 375
+        width: 131
+        height: 120
+      alignment: 9
+      pivot: {x: 0.5162135, y: 0.16522954}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ce8a2239d2c22b4991be501e49976f1
+      internalID: -1864369916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HatGoast_4
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 251
+        width: 121
+        height: 114
+      alignment: 9
+      pivot: {x: 0.5066733, y: 0.22730134}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03694d9858c577a4f95b6b274b2fb37a
+      internalID: -453689822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HatGoast_5
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 231
+        width: 124
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5602363, y: 0.19124821}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5b199b5b491d924e9222eea368cfbe5
+      internalID: 2120177191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      HatGoast_22: 837542703
+      HatGoast_2: -1864369916
+      HatGoast_4: -453689822
+      HatGoast_11: 21691859
+      HatGoast_6: 123702107
+      HatGoast_14: -265452617
+      HatGoast_26: -1586437435
+      HatGoast_20: -2120626721
+      HatGoast_17: 389154028
+      HatGoast_16: -468171025
+      HatGoast_25: 1628024174
+      HatGoast_0: 1010267974
+      HatGoast_3: -304463206
+      HatGoast_31: -529548844
+      HatGoast_7: -1290929140
+      HatGoast_34: 1045843213
+      HatGoast_10: 810418229
+      HatGoast_33: 106957115
+      HatGoast_19: -1225021361
+      HatGoast_29: 1915178332
+      HatGoast_9: 1043839205
+      HatGoast_21: -679683580
+      HatGoast_18: 726126511
+      HatGoast_23: 2010136308
+      HatGoast_1: 394569127
+      HatGoast_13: -2099398466
+      HatGoast_24: -60186490
+      HatGoast_30: 205687977
+      HatGoast_12: -2017021031
+      HatGoast_8: -1840730317
+      HatGoast_5: 2120177191
+      HatGoast_15: 1306642805
+      HatGoast_32: -750715810
+      HatGoast_27: 1533773782
+      HatGoast_28: -192971336
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

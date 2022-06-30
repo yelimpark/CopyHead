@@ -15,11 +15,11 @@ public enum GameState
 
 public class GameManager : Singleton<GameManager>
 {
-    public int curPahse = 0;
-    public int pahseNum;
-    public List<GameObject> PhaseBoss = new List<GameObject>();
+    public GameObject FirstPhaseBoss;
     public GameObject player;
+    public GameObject playerIntro;
     public BossSceneUI UI;
+    public int curPhase;
 
     private GameState curState = GameState.TRANSITION_IN;
 
@@ -33,11 +33,12 @@ public class GameManager : Singleton<GameManager>
             {
                 case GameState.INTRO:
                     UI.CurState = GameState.INTRO;
-                    PhaseBoss[0].GetComponent<Animator>().SetTrigger("intro");
-                    player.GetComponent<Animator>().SetTrigger("Intro");
+                    FirstPhaseBoss.GetComponent<Animator>().SetTrigger("intro");
+                    playerIntro.GetComponent<Animator>().SetTrigger("intro");
                     break;
                 case GameState.INGAME:
-                    player.GetComponent<BossScenePlayerMove>().enabled = true;
+                    playerIntro.SetActive(false);
+                    player.SetActive(true);
                     UI.CurState = GameState.INGAME;
                     break;
                 case GameState.GAMEOVER:
@@ -48,7 +49,6 @@ public class GameManager : Singleton<GameManager>
                     break;
                 case GameState.TRANSITION_OUT:
                     UI.CurState = GameState.TRANSITION_OUT;
-
                     break;
                 default:
                     break;
@@ -56,12 +56,10 @@ public class GameManager : Singleton<GameManager>
         }
     }
 
-
     public void Init (int pahseNum)
     {
-        curPahse = 0;
-        this.pahseNum = pahseNum;
+        curPhase = 0;
         player = null;
-        PhaseBoss.Clear();
+        curState = GameState.TRANSITION_IN;
     }
 }

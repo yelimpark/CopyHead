@@ -13,9 +13,10 @@ public class Testing : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Alpha1))
-        {
-            Debug.Log(GameVal.Instnace.MaxLife);
-        }
+    }
+
+    public void test()
+    {
+        Debug.Log("Nomal");
     }
 }

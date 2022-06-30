@@ -19,6 +19,8 @@ public class BossSceneAttackablePlayer : MonoBehaviour
         playerMove = GetComponent<BossScenePlayerMove>();
 
         Life = GameVal.Instnace.MaxLife;
+
+        gameObject.SetActive(false);
     }
 
     public bool OnHitted()
@@ -30,6 +32,7 @@ public class BossSceneAttackablePlayer : MonoBehaviour
 
         if (Life <= 0)
         {
+            GameManager.Instnace.CurState = GameState.GAMEOVER;
             Instantiate(goast, transform.position, transform.rotation);
             Destroy(gameObject);
         }
