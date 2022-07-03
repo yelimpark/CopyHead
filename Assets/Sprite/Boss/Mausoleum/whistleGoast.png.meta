@@ -1,0 +1,399 @@
+fileFormatVersion: 2
+guid: ca6ffb248236b7b4285c852c33c25061
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: whistleGoast_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 817
+        width: 214
+        height: 137
+      alignment: 9
+      pivot: {x: 0.5140472, y: 0.23181553}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a65b105cee6e474681a1df932888d7f
+      internalID: 174233920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whistleGoast_1
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 826
+        width: 202
+        height: 148
+      alignment: 9
+      pivot: {x: 0.5018026, y: 0.19988437}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2acf34b247c83b84096502f701e75d4b
+      internalID: -102824642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whistleGoast_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 609
+        width: 196
+        height: 150
+      alignment: 9
+      pivot: {x: 0.47585234, y: 0.2063143}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 082de4fdf7757da43a8e51b1bfb60505
+      internalID: -1701170325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whistleGoast_4
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 679
+        width: 206
+        height: 141
+      alignment: 9
+      pivot: {x: 0.52975065, y: 0.21312654}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d467cb00af629834aa3e4ced07f0330f
+      internalID: -576439735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whistleGoast_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 457
+        width: 206
+        height: 146
+      alignment: 9
+      pivot: {x: 0.49589238, y: 0.20248915}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b18e4b2b2b82542419d2c2f272309c66
+      internalID: -910323297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whistleGoast_6
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 532
+        width: 221
+        height: 141
+      alignment: 9
+      pivot: {x: 0.5423181, y: 0.22047241}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47a8101124835c94b86ae5639ea31065
+      internalID: 398443976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whistleGoast_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 302
+        width: 204
+        height: 149
+      alignment: 9
+      pivot: {x: 0.4901761, y: 0.21082199}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29094bb5e12559746b0c3cd161bb3efc
+      internalID: -518156996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whistleGoast_8
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 382
+        width: 216
+        height: 144
+      alignment: 9
+      pivot: {x: 0.51682156, y: 0.21928808}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c70a5a05a670b642bf8c37c62ff3e3c
+      internalID: -1456642581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whistleGoast_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 143
+        width: 198
+        height: 153
+      alignment: 9
+      pivot: {x: 0.483966, y: 0.20172149}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13ca6f79604915f4e8539c662bc798be
+      internalID: -1778435121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whistleGoast_10
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 238
+        width: 212
+        height: 138
+      alignment: 9
+      pivot: {x: 0.50501364, y: 0.22212197}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21343520bad3bfb469aa29bf6d539083
+      internalID: 640717769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whistleGoast_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 211
+        height: 137
+      alignment: 9
+      pivot: {x: 0.48274538, y: 0.2209658}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30f793b1853f58c41a2cd5cd8f81db9f
+      internalID: -2039216558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whistleGoast_12
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 76
+        width: 201
+        height: 156
+      alignment: 9
+      pivot: {x: 0.52228194, y: 0.22438842}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a2b57a879280ad42ba8740bb7a037ad
+      internalID: 490872845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      whistleGoast_4: -576439735
+      whistleGoast_10: 640717769
+      whistleGoast_1: -102824642
+      whistleGoast_6: 398443976
+      whistleGoast_2: 1149008411
+      whistleGoast_5: -910323297
+      whistleGoast_9: -1778435121
+      whistleGoast_7: -518156996
+      whistleGoast_12: 490872845
+      whistleGoast_0: 174233920
+      whistleGoast_11: -2039216558
+      whistleGoast_8: -1456642581
+      whistleGoast_3: -1701170325
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
